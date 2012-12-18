@@ -13,6 +13,9 @@
 /* Based on Todd Werth's IR_Black:
 /* http://blog.toddwerth.com/entries/2
 /*
+/* With some toolbar code from Harris Novick:
+/* https://gist.github.com/4316646
+/*
 /* Inspired by Darcy Clarke's blog post:
 /* http://darcyclarke.me/design/skin-your-chrome-inspector/
 /*
@@ -23,74 +26,73 @@
 	background-color: #242424;
 }
 
-#-webkit-web-inspector * {
-	border-color: #333 !important;
-}
-
 #-webkit-web-inspector #toolbar {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#222)) !important;
-	border-top: 1px solid #444 !important;
-	border-bottom: 1px solid #1A1A1A !important;
+	background: -webkit-linear-gradient(#505050,#383838) !important;
+	border-top: 1px solid #222 !important;
+	border-bottom: 1px solid #222 !important;
+	box-shadow: inset 0 1px 0 #6E6E6E, 0 2px 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4) !important;
+	height: auto !important;
 }
 
-/* Make the top toolbar dark */
-#-webkit-web-inspector.detached #toolbar {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#222)) !important;
-	height: 42px !important;
-	border-top: 1px solid #999 !important;
-	border-bottom: 1px solid #000 !important;
-}
-
-#-webkit-web-inspector.detached.inactive #toolbar {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)) !important;
-}
-
-#-webkit-web-inspector #main {
-	top: 42px !important;
-}
-
-/* Disable the labels of the toolbar icons */
 #-webkit-web-inspector .toolbar-label {
+	color: #999 !important;
+	position: relative !important;
+	top: 0px !important;
+}
+
+#-webkit-web-inspector #toolbar > button {
+	box-shadow: none !important;
+	border: 0 none !important;
+	line-height: 22px !important;
+	padding: 4px 14px 6px !important;
+	cursor: pointer !important;
+}
+
+#-webkit-web-inspector button:hover,
+#-webkit-web-inspector .toolbar-item.toggleable.toggled-on {
+	background-color: rgba(0,0,0,0.4) !important;
+}
+
+button.status-bar-item.toggled-on .glyph {
+	background-color: yellow !important;
+}
+
+#-webkit-web-inspector #toolbar > button:hover .toolbar-label,
+#-webkit-web-inspector .toolbar-item.toggleable.toggled-on .toolbar-label {
+	color: #f8f8f8 !important;
+}
+
+#-webkit-web-inspector #toolbar div:first-child {
 	display: none !important;
 }
 
-/* Make the status bar dark as well */
-#-webkit-web-inspector .status-bar {
-	background-image: -webkit-linear-gradient(#444, #222) !important;
+#-webkit-web-inspector #toolbar > div:first-child {
+	display: block !important;
 }
 
-#-webkit-web-inspector .status-bar button.status-bar-item {
-	border-left: 1px solid #555 !important;
-	border-right: 1px solid #222 !important;
+#-webkit-web-inspector #main {
+	top: 34px !important;
 }
 
-#-webkit-web-inspector .status-bar button .glyph {
-	background-color: rgba(255, 255, 255, 0.75) !important;
-	margin: 0 1 !important;
+.split-view-sidebar-right .pane .sidebar-separator {
+	background-image: -webkit-linear-gradient(#505050,#383838) !important;
+	padding: 2px 5px !important;
+	border-top: 1px solid #636363 !important;
+	border-bottom: 1px solid black !important;
+	color: #eee !important;
+	text-shadow: #222 0 1px 0 !important;
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	font-size: 11px !important;
 }
 
-#-webkit-web-inspector .status-bar button .glyph.shadow {
-	margin: -2px -1px !important;
-	background-color: rgba(0, 0, 0, 0.75) !important;
+/* Show Icons that randomly vanished  */
+#-webkit-web-inspector .toolbar-icon {
+	display: block;
 }
-
-#-webkit-web-inspector .crumbs .crumb.selected.end, .crumbs .crumb {
-	-webkit-border-image: none !important;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#222)) !important;
-	border-width: 0 1px 0 2px !important;
-	border-right: 1px solid rgba(0,0,0,1) !important;
-	border-left: 1px solid rgba(255,255,255,0.2) !important;
-	margin: 0 !important;
-	padding-right: 7px !important;
-	color: #BBB !important;
-	text-shadow: none !important;
-}
-
-#-webkit-web-inspector .crumbs .crumb.selected.end, .crumbs .crumb.selected {
-	-webkit-border-image: none !important;
-	color: black !important;
-	text-shadow: none !important;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 179, 55)), to(rgb(238, 154, 4))) !important;
+#-webkit-web-ispector  .toolbar-item {
+	height: 37px !important;
 }
 
 /* Panes */
@@ -207,34 +209,6 @@
 #-webkit-web-inspector .resources.panel .selected .base-storage-tree-element-title,
 #-webkit-web-inspector .selected .base-navigator-tree-element-title {
 	color: #fff !important;
-}
-
-#-webkit-web-inspector .name-column {
-	color: #a6e70a !important;
-}
-
-#-webkit-web-inspector .method-column {
-	color: #72d9e7 !important;
-}
-
-#-webkit-web-inspector .type-column {
-	color: #a775ff !important;
-}
-
-#-webkit-web-inspector .network-log-grid.data-grid th,
-#-webkit-web-inspector .network-log-grid.data-grid th.sort-descending,
-#-webkit-web-inspector .network-log-grid.data-grid th.sort-ascending {
-	background: -webkit-gradient(linear, left top, left bottom, from(rgb(40, 40, 40)), to(rgb(0, 0, 0))) !important;
-	color: #ccc;
-}
-
-#-webkit-web-inspector .network-log-grid.data-grid td.method-column,
-#-webkit-web-inspector .network-log-grid.data-grid td.status-column,
-#-webkit-web-inspector .network-log-grid.data-grid td.type-column,
-#-webkit-web-inspector .network-log-grid.data-grid td.initiator-column,
-#-webkit-web-inspector .network-log-grid.data-grid td.size-column,
-#-webkit-web-inspector .network-log-grid.data-grid td.time-column {
-	color: #ccc;
 }
 
 /**********************************************/

@@ -1,8 +1,8 @@
-SO-Dark-Monokai-v2
+SO-Dark-Monokai-v3
 
-A second version of the theme I tweaked introducing a bit more colour.
+A third version of the theme I tweaked, changing the toolbar icons to text and fixing an issue with the latest release of Chrome Canary.
 
-https://github.com/simonowendesign/SO-Dark-Monokai
+https://github.com/simonowendesign/SO-Dark-Monokai-v3
 Taken from the below and tweaked by Simon Owen (@simonowendesign)
 
 Preview:
@@ -22,6 +22,9 @@ Based on Ben Truyman's IR_Black
 which is...
 Based on Todd Werth's IR_Black:
 http://blog.toddwerth.com/entries/2
+
+With some toolbar code from Harris Novick:
+https://gist.github.com/4316646
 
 Inspired by Darcy Clarke's blog post:
 http://darcyclarke.me/design/skin-your-chrome-inspector/
