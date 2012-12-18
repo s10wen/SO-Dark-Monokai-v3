@@ -6,13 +6,9 @@ https://github.com/simonowendesign/SO-Dark-Monokai-v3
 Taken from the below and tweaked by Simon Owen (@simonowendesign)
 
 Preview:
-<img src="http://farm9.staticflickr.com/8198/8179021192_67994d5fea_b.jpg" />
+<img src="http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg" />
 
-<a href="http://farm9.staticflickr.com/8198/8179021192_c24ea3c269_o.png">Full size preview</a>
-
-<img src="http://farm9.staticflickr.com/8069/8201715505_977d44961f_b.jpg" />
-
-<a href="http://farm9.staticflickr.com/8069/8201715505_db13c79436_o.png">Full size preview</a>
+<a href="http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg">Full size preview</a>
 
 IR_Dark_Monokai
 Designed and developed by Andres Pagella (@mapagella)
