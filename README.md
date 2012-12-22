@@ -1,14 +1,33 @@
-SO-Dark-Monokai-v3
+# SO-Dark-Monokai-v3
 
 A third version of the theme I tweaked, changing the toolbar icons to text and fixing an issue with the latest release of Chrome Canary.
 
 https://github.com/simonowendesign/SO-Dark-Monokai-v3
-Taken from the below and tweaked by Simon Owen (@simonowendesign)
 
-Preview:
+
+## Installation:
+ 
+1. Find your Chrome's user stylesheets directory:
+ 
+   Mac: ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/
+   Windows: C:\Users\**Your Username**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\
+   Ubuntu (Chromium): ~/.config/chromium/Default/User StyleSheets/
+ 
+2. Replace the existing "Custom.css" file with this one
+ 
+3. No restart needed, changes are applied immediately
+
+
+## Preview:
+
 <img src="http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg" />
 
 <a href="http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg">Full size preview</a>
+
+
+## Credits
+
+Taken from the below and tweaked by Simon Owen (@simonowendesign)
 
 IR_Dark_Monokai
 Designed and developed by Andres Pagella (@mapagella)
