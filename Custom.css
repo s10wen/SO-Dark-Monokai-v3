@@ -95,6 +95,10 @@ button.status-bar-item.toggled-on .glyph {
 	height: 37px !important;
 }
 
+#-webkit-web-inspector .close-left {
+  margin: 10px 0 0 0 !important;
+}
+
 /* Panes */
 #-webkit-web-inspector #main ol {
 	background-color: #111 !important;
