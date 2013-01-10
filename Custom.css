@@ -323,6 +323,16 @@ button.status-bar-item.toggled-on .glyph {
 /* Elements/Network
 /**********************************************/
 
+#-webkit-web-inspector .data-grid table {
+  color: white !important;
+}
+
+#-webkit-web-inspector .network-graph-bar,
+#-webkit-web-inspector .network-graph-label,
+#-webkit-web-inspector .network-graph-bar-area {
+  color: white !important;
+}
+
 /**********************************************/
 /* Layout
 /**********************************************/
