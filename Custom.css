@@ -145,8 +145,8 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector .pane > .title {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)) !important;
-	color: #111 !important;
-	text-shadow: none !important;
+	color: #bbb !important;
+  	text-shadow: 0 1px 0 black !important;
 	border-top: 1px solid #333 !important;
 	border-bottom: 1px solid #333 !important;
 }
@@ -388,6 +388,11 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector #elements-content .parent.expanded::before {
 	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#-webkit-web-inspector .styles-element-state-pane {
+  background: transparent;
+  border-bottom: 1px solid #666;
 }
 
 /**********************************************/
