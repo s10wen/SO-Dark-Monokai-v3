@@ -48,8 +48,11 @@
 	cursor: pointer !important;
 }
 
-#-webkit-web-inspector button:hover,
 #-webkit-web-inspector .toolbar-item.toggleable.toggled-on {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+#-webkit-web-inspector button:hover {
   background-color: none !important;
 }
 
@@ -111,6 +114,10 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector .styles-section.read-only {
 	background-color: #222 !important;
+}
+
+#-webkit-web-inspector .styles-section {
+  padding: 4px 0 !important;
 }
 
 #-webkit-web-inspector .styles-section .header .subtitle {
@@ -312,6 +319,7 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector #console-prompt {
 	color: #f1f1f1 !important;
+	border-bottom: 1px solid #444 !important;
 }
 
 #-webkit-web-inspector #console-prompt::before {
