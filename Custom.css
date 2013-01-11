@@ -286,6 +286,11 @@ button.status-bar-item.toggled-on .glyph {
 	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
 }
 
+#-webkit-web-inspector .properties-tree li,
+#-webkit-web-inspector .properties-tree li.parent {
+  background-color: #242424 !important;
+}
+
 #-webkit-web-inspector #console-messages .console-group-messages .section.expanded .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent.expanded::before,
 #-webkit-web-inspector .outline-disclosure li.parent.expanded::before {
