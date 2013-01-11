@@ -50,7 +50,7 @@
 
 #-webkit-web-inspector button:hover,
 #-webkit-web-inspector .toolbar-item.toggleable.toggled-on {
-	background-color: rgba(0,0,0,0.4) !important;
+  background-color: none !important;
 }
 
 button.status-bar-item.toggled-on .glyph {
