@@ -491,6 +491,8 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector .styles-element-state-pane {
   background: transparent;
+  margin-top: -46px;
+  padding: 4px 0;
   border-bottom: 1px solid #666;
 }
 
