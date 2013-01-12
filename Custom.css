@@ -361,6 +361,7 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector #console-messages .console-message, #-webkit-web-inspector .console-user-command {
+	border-top: none !important;
 	border-bottom: 1px solid #444 !important;
 }
 
@@ -445,6 +446,7 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector #console-prompt {
 	color: #f1f1f1 !important;
+	border-top: none !important;
 	border-bottom: 1px solid #444 !important;
 }
 
