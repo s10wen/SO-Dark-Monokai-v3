@@ -111,7 +111,7 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector .webkit-css-property,
 #-webkit-web-inspector .value {
-	background-color: #111 !important;
+	background-color: inherit !important;
 }
 
 #-webkit-web-inspector div.pane.expanded {
@@ -364,18 +364,23 @@ button.status-bar-item.toggled-on .glyph {
 #-webkit-web-inspector #console-messages .console-group-messages .section .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent::before,
 #-webkit-web-inspector .outline-disclosure li.parent::before {
-	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) #242424 !important;
 }
 
 #-webkit-web-inspector .properties-tree li,
+#-webkit-web-inspector .outline-disclosure li::before,
 #-webkit-web-inspector .properties-tree li.parent {
-  background-color: #242424 !important;
+  background-color: inherit !important;
+}
+
+#-webkit-web-inspector #main ol {
+	background-color: inherit !important;
 }
 
 #-webkit-web-inspector #console-messages .console-group-messages .section.expanded .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent.expanded::before,
 #-webkit-web-inspector .outline-disclosure li.parent.expanded::before {
-	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) #242424 !important;
 }
 
 @-webkit-keyframes webkit-error-level {
