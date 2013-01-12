@@ -24,9 +24,11 @@ https://github.com/simonowendesign/SO-Dark-Monokai-v3
 
 ## Preview:
 
-<img src="http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg" />
+<img src="http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg">
 
-<a href="http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg">Full size preview</a>
+[Full size preview](http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg)
+
+[20130112 - Update](http://farm9.staticflickr.com/8196/8373203286_039e3a07fb_o.png)
 
 
 ## Credits
