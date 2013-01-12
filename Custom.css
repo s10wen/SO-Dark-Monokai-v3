@@ -139,6 +139,20 @@ button.status-bar-item.toggled-on .glyph {
 	color: #000 !important;
 }
 
+#-webkit-web-inspector .suggest-box {
+	color: #333 !important;
+	background-color: #efefef !important;
+}
+
+#-webkit-web-inspector .suggest-box-content-item.source-code {
+	color: #999 !important;
+}
+
+#-webkit-web-inspector .suggest-box-content-item.source-code.selected {
+	color: #FFF !important;
+	background-color: #242424 !important;
+}
+
 #-webkit-web-inspector .styles-section .properties > li .webkit-css-property {
 	color: #72d9e7 !important;
 	font-weight: normal;
