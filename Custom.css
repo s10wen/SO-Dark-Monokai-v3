@@ -511,10 +511,14 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .styles-element-state-pane {
-  background: transparent;
-  margin-top: -46px;
-  padding: 4px 0;
-  border-bottom: 1px solid #666;
+  background: #333 !important;
+  margin-top: -46px !important;
+  padding: 4px 0 !important;
+  border-bottom: 1px solid #666 !important;
+}
+
+#-webkit-web-inspector .styles-element-state-pane.expanded {
+	margin-top: 0px !important;
 }
 
 /**********************************************/
