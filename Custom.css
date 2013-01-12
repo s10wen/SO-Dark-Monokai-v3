@@ -3,7 +3,7 @@
 /* SO-Dark-Monokai
 /* https://github.com/simonowendesign/SO-Dark-Monokai
 /* Taken from the below and tweaked by Simon Owen (@simonowendesign)
-/* 
+/*
 /* IR_Dark_Monokai
 /* Designed and developed by Andres Pagella (@mapagella)
 /* http://www.andrespagella.com/customising-chrome-devtools
@@ -20,6 +20,12 @@
 /* http://darcyclarke.me/design/skin-your-chrome-inspector/
 /*
 /**********************************************/
+
+/* Colours
+lightgreen: #a6e70a;
+lightblue: #72d9e7;
+purple: #a775ff;
+*/
 
 #-webkit-web-inspector,
 #-webkit-web-inspector .split-view-contents {
@@ -90,12 +96,12 @@ button.status-bar-item.toggled-on .glyph {
 	font-size: 11px !important;
 }
 
-/* Show Icons that randomly vanished  */
-#-webkit-web-inspector .toolbar-icon {
-	display: block;
-}
-#-webkit-web-inspector  .toolbar-item {
+#-webkit-web-inspector .toolbar-item {
 	height: 37px !important;
+}
+
+#-webkit-web-inspector .close-left {
+  margin: 10px 0 0 0 !important;
 }
 
 /* Panes */
@@ -124,7 +130,11 @@ button.status-bar-item.toggled-on .glyph {
 	color: #666 !important;
 }
 
-#-webkit-web-inspector  .monospace,
+#-webkit-web-inspector .section .properties .dimmed {
+	opacity: 0.8 !important;
+}
+
+#-webkit-web-inspector .monospace,
 #-webkit-web-inspector .source-code {
 	color: #000 !important;
 }
@@ -132,6 +142,14 @@ button.status-bar-item.toggled-on .glyph {
 #-webkit-web-inspector .styles-section .properties > li .webkit-css-property {
 	color: #72d9e7 !important;
 	font-weight: normal;
+}
+
+#-webkit-web-inspector .styles-element-state-pane.expanded {
+	border-bottom: 1px solid #555 !important;
+}
+
+#-webkit-web-inspector .styles-element-state-pane {
+	background: #333 !important;
 }
 
 #-webkit-web-inspector .styles-section .value {
@@ -218,6 +236,69 @@ button.status-bar-item.toggled-on .glyph {
 	color: #fff !important;
 }
 
+/* DOM Breakpoints */
+#-webkit-web-inspector .pane > .body .info {
+	color: #999 !important;
+	font-style: normal;
+}
+
+/* Add drop down arrows to Event Listeners */
+#-webkit-web-inspector .section.expanded .header::before,
+#-webkit-web-inspector .event-bars .event-bar.expanded .header::before {
+	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallDownWhite.png) !important;
+}
+
+#-webkit-web-inspector .section .header::before,
+#-webkit-web-inspector .event-bars .event-bar .header::before {
+	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallRightWhite.png) !important;
+}
+
+/* Resources info */
+#-webkit-web-inspector .resource-view.image .title {
+	color: #ccc !important;
+}
+
+#-webkit-web-inspector .resource-view.image .infoList dt {
+	color: #666 !important;
+	margin-bottom: 5px !important;
+}
+
+#-webkit-web-inspector .resource-view.image .infoList dd {
+	color: #888 !important;
+	margin-bottom: 5px !important;
+}
+
+/* Network */
+#-webkit-web-inspector .data-grid td > div {
+	color: #ccc !important;
+}
+
+#-webkit-web-inspector .network-cell-subtitle {
+	color: #888 !important;
+}
+
+#-webkit-web-inspector .network-log-grid.data-grid td {
+	border-right: 1px solid #333 !important;
+}
+
+#-webkit-web-inspector .network-graph-side:hover .network-graph-label {
+	color: #fff !important;
+	font-size: 12px !important;
+}
+
+#-webkit-web-inspector .data-grid:focus tr.selected {
+	background: #000 !important;
+}
+
+#-webkit-web-inspector .network-log-grid.data-grid tr.filler {
+	background: #333;
+}
+
+/* Timeline */
+#-webkit-web-inspector .sidebar-tree-section {
+	text-shadow: none !important;
+}
+
 /**********************************************/
 /* Console
 /**********************************************/
@@ -252,7 +333,7 @@ button.status-bar-item.toggled-on .glyph {
 	color: #ffd2a7 !important;
 }
 
-#-webkit-web-inspector #console-messages .console-formatted-number {
+#-webkit-web-inspector .console-formatted-number {
 	color: #ff73fd !important;
 }
 
