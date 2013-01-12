@@ -269,8 +269,29 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 /* Network */
+#-webkit-web-inspector #network-views .network-item-view {
+	background: #242424 !important;
+}
+
+#-webkit-web-inspector .network-log-grid.data-grid table {
+	color: #333 !important;
+}
+
+#-webkit-web-inspector .outline-disclosure > ol,
+#-webkit-web-inspector .resource-headers-view .outline-disclosure .parent {
+	color: #CCC !important;
+}
+
+#-webkit-web-inspector .resource-headers-view .outline-disclosure .header-name {
+	color: #777 !important;
+}
+
+#-webkit-web-inspector .network-log-grid.data-grid tr.filler {
+	background-color: #242424 !important;
+}
+
 #-webkit-web-inspector .data-grid td > div {
-	color: #ccc !important;
+	color: #CCC !important;
 }
 
 #-webkit-web-inspector .network-cell-subtitle {
