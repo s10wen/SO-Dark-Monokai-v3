@@ -101,7 +101,7 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .close-left {
-  margin: 10 0 0 0 !important;
+  margin: 10px 0 0 0 !important;
 }
 
 /* Panes */
