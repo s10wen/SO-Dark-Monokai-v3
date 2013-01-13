@@ -43,7 +43,7 @@ purple: #a775ff;
 #-webkit-web-inspector .toolbar-label {
 	color: #999 !important;
 	position: relative !important;
-	top: 0px !important;
+	top: 0 !important;
 }
 
 #-webkit-web-inspector #toolbar > button {
@@ -101,7 +101,7 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .close-left {
-  margin: 10px 0 0 0 !important;
+  margin: 10 0 0 0 !important;
 }
 
 /* Panes */
@@ -423,7 +423,7 @@ button.status-bar-item.toggled-on .glyph {
 0%   { color: #f22; !important }
 50%  {
 	color: #f00 !important;
-	text-shadow: 0px 0px 5px rgba(255, 100, 100, 1);
+	text-shadow: 0 0 5px rgba(255, 100, 100, 1);
 }
 100% { color: #f22; !important }
 }
@@ -534,7 +534,7 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .styles-element-state-pane.expanded {
-	margin-top: 0px !important;
+	margin-top: 0 !important;
 }
 
 /**********************************************/
