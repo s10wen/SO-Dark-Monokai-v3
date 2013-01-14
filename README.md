@@ -49,10 +49,8 @@ IR_Dark_Monokai
 Designed and developed by Andres Pagella (@mapagella)
 http://www.andrespagella.com/customising-chrome-devtools
 
-
 Extra tweaks by James Doyle @james2doyle:
 https://github.com/james2doyle/SO-Dark-Monokai-v3/commits/master
-
 
 Based on Ben Truyman's IR_Black
 which is...
@@ -62,6 +60,8 @@ http://blog.toddwerth.com/entries/2
 With some toolbar code from Harris Novick:
 https://gist.github.com/4316646
 
-
 Inspired by Darcy Clarke's blog post:
 http://darcyclarke.me/design/skin-your-chrome-inspector/
+
+Dock-To-Right when using vertical splitting:
+https://github.com/mauricelam/DockToRight
