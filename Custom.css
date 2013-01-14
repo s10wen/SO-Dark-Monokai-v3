@@ -21,12 +21,38 @@
 /*
 /**********************************************/
 
-/* Colours
-lightgreen: #a6e70a;
-lightblue: #72d9e7;
-purple: #a775ff;
+/*
+	Colours:
+	lightgreen: #a6e70a;
+	lightblue: #72d9e7;
+	purple: #a775ff;
 */
 
+/*
+	Dock-To-Right when using vertical splitting:
+	https://github.com/mauricelam/DockToRight
+*/
+#-webkit-web-inspector .source-code {
+	left: auto;
+	right: auto;
+	width: 100% !important;
+	height: 50%;
+}
+
+#-webkit-web-inspector .split-view-sidebar-right {
+	left: auto;
+	right: auto;
+	width: 100% !important;
+	height: 50%;
+}
+
+#-webkit-web-inspector .split-view-contents {
+	position: static !important;
+}
+
+/*
+	Styles
+*/
 #-webkit-web-inspector,
 #-webkit-web-inspector .split-view-contents {
 	background-color: #242424;
