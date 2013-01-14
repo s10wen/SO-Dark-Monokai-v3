@@ -237,7 +237,7 @@ button.status-bar-item.toggled-on .glyph {
 #-webkit-web-inspector .selector-matches {
 	color: #a6e70a !important;
 }
-
+/* Resources Tab */
 #-webkit-web-inspector .sidebar-tree,
 #-webkit-web-inspector .resources.panel .base-storage-tree-element-title,
 #-webkit-web-inspector .resources.panel .base-storage-tree-element-subtitle,
@@ -270,6 +270,34 @@ button.status-bar-item.toggled-on .glyph {
 	background-color: #444 !important;
 }
 
+/* Resources info */
+#-webkit-web-inspector .resource-view.image .title {
+	color: #ccc !important;
+}
+
+#-webkit-web-inspector .resource-view.image .infoList dt {
+	color: #666 !important;
+	margin-bottom: 5px !important;
+}
+
+#-webkit-web-inspector .resource-view.image .infoList dd {
+	color: #888 !important;
+	margin-bottom: 5px !important;
+}
+
+/* Scripts */
+
+#-webkit-web-inspector .scripts.panel .sidebar-overlay {
+	background-color: #242424;
+}
+
+#-webkit-web-inspector .scripts.panel .outline-disclosure li.selected .selection,
+#-webkit-web-inspector .outline-disclosure ol:focus li.selected {
+	background-color: #444 !important;
+}
+
+
+
 /* DOM Breakpoints */
 #-webkit-web-inspector .pane > .body .info {
 	color: #999 !important;
@@ -285,21 +313,6 @@ button.status-bar-item.toggled-on .glyph {
 #-webkit-web-inspector .section .header::before,
 #-webkit-web-inspector .event-bars .event-bar .header::before {
 	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallRightWhite.png) !important;
-}
-
-/* Resources info */
-#-webkit-web-inspector .resource-view.image .title {
-	color: #ccc !important;
-}
-
-#-webkit-web-inspector .resource-view.image .infoList dt {
-	color: #666 !important;
-	margin-bottom: 5px !important;
-}
-
-#-webkit-web-inspector .resource-view.image .infoList dd {
-	color: #888 !important;
-	margin-bottom: 5px !important;
 }
 
 /* Network */
