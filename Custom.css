@@ -257,10 +257,6 @@ button.status-bar-item.toggled-on .glyph {
 	background-color: #242424 !important;
 }
 
-#-webkit-web-inspector .resources.panel .base-storage-tree-element-subtitle {
-	color: ;
-}
-
 #-webkit-web-inspector .resources.panel .data-grid table.data,
 #-webkit-web-inspector .resources.panel table.header .data-grid th {
 	background-image: none !important;
