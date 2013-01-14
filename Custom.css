@@ -63,7 +63,8 @@ purple: #a775ff;
 }
 
 button.status-bar-item.toggled-on .glyph {
-	background-color: yellow !important;
+	top: -1px !important;
+	background-color: #F9275D !important;
 }
 
 #-webkit-web-inspector #toolbar > button:hover .toolbar-label,
