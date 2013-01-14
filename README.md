@@ -6,11 +6,11 @@ https://github.com/simonowendesign/SO-Dark-Monokai-v3
 
 
 ## Installation:
- 
+
 1. Find your Chrome's user stylesheets directory:
 
 
-   `Mac: ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/`
+   `Mac: ~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/`
 
    `Windows: C:\Users\**Your Username**\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\`
 
@@ -18,7 +18,7 @@ https://github.com/simonowendesign/SO-Dark-Monokai-v3
 
 
 2. Replace the existing "Custom.css" file with this one
- 
+
 3. No restart needed, changes are applied immediately
 
 
@@ -29,6 +29,8 @@ https://github.com/simonowendesign/SO-Dark-Monokai-v3
 [Full size preview](http://farm9.staticflickr.com/8341/8283027217_66d3cbb926_b.jpg)
 
 [20130112 - Update](http://farm9.staticflickr.com/8196/8373203286_039e3a07fb_o.png)
+
+[20130112 - Network](http://cl.ly/M8RM)
 
 
 ## Credits
