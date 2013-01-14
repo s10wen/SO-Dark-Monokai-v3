@@ -170,15 +170,6 @@ button.status-bar-item.toggled-on .glyph {
 	color: #a775ff !important;
 }
 
-#-webkit-web-inspector .resources .sidebar {
-	background-color: #242424 !important;
-}
-
-#-webkit-web-inspector .resources .data-grid table.data,
-#-webkit-web-inspector .resources table.header .data-grid th {
-	background-image: none !important;
-}
-
 #-webkit-web-inspector .sidebar-separator {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), color-stop(0.05, #666), color-stop(0.05, #333), to(#444)) !important;
 	color: #CCC !important;
@@ -249,14 +240,34 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector .sidebar-tree,
 #-webkit-web-inspector .resources.panel .base-storage-tree-element-title,
+#-webkit-web-inspector .resources.panel .base-storage-tree-element-subtitle,
 #-webkit-web-inspector .base-navigator-tree-element-title {
 	color: #999 !important;
 }
 
 #-webkit-web-inspector .selected .sidebar-tree,
 #-webkit-web-inspector .resources.panel .selected .base-storage-tree-element-title,
+#-webkit-web-inspector .resources.panel .selected .base-storage-tree-element-subtitle,
 #-webkit-web-inspector .selected .base-navigator-tree-element-title {
 	color: #fff !important;
+}
+
+#-webkit-web-inspector .resources.panel .sidebar {
+	background-color: #242424 !important;
+}
+
+#-webkit-web-inspector .resources.panel .base-storage-tree-element-subtitle {
+	color: ;
+}
+
+#-webkit-web-inspector .resources.panel .data-grid table.data,
+#-webkit-web-inspector .resources.panel table.header .data-grid th {
+	background-image: none !important;
+}
+
+#-webkit-web-inspector .resources.panel .data-grid tr.selected,
+#-webkit-web-inspector .resources.panel .data-grid:focus tr.selected {
+	background-color: #444 !important;
 }
 
 /* DOM Breakpoints */
