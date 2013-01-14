@@ -55,11 +55,11 @@ purple: #a775ff;
 }
 
 #-webkit-web-inspector .toolbar-item.toggleable.toggled-on {
-  background-color: rgba(0,0,0,0.4) !important;
+	background-color: rgba(0,0,0,0.4) !important;
 }
 
 #-webkit-web-inspector button:hover {
-  background-color: none !important;
+	background-color: none !important;
 }
 
 button.status-bar-item.toggled-on .glyph {
@@ -101,7 +101,7 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .close-left {
-  margin: 10px 0 0 0 !important;
+	margin: 10px 0 0 0 !important;
 }
 
 /* Panes */
@@ -123,7 +123,7 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .styles-section {
-  padding: 4px 0 !important;
+	padding: 4px 0 !important;
 }
 
 #-webkit-web-inspector .styles-section .header .subtitle {
@@ -170,6 +170,15 @@ button.status-bar-item.toggled-on .glyph {
 	color: #a775ff !important;
 }
 
+#-webkit-web-inspector .resources .sidebar {
+	background-color: #242424 !important;
+}
+
+#-webkit-web-inspector .resources .data-grid table.data,
+#-webkit-web-inspector .resources table.header .data-grid th {
+	background-image: none !important;
+}
+
 #-webkit-web-inspector .sidebar-separator {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), color-stop(0.05, #666), color-stop(0.05, #333), to(#444)) !important;
 	color: #CCC !important;
@@ -185,7 +194,7 @@ button.status-bar-item.toggled-on .glyph {
 #-webkit-web-inspector .pane > .title {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)) !important;
 	color: #bbb !important;
-  	text-shadow: 0 1px 0 black !important;
+	text-shadow: 0 1px 0 black !important;
 	border-top: 1px solid #333 !important;
 	border-bottom: 1px solid #333 !important;
 }
@@ -406,7 +415,7 @@ button.status-bar-item.toggled-on .glyph {
 #-webkit-web-inspector .properties-tree li,
 #-webkit-web-inspector .outline-disclosure li::before,
 #-webkit-web-inspector .properties-tree li.parent {
-  background-color: inherit !important;
+	background-color: inherit !important;
 }
 
 #-webkit-web-inspector #main ol {
@@ -420,12 +429,12 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 @-webkit-keyframes webkit-error-level {
-0%   { color: #f22; !important }
-50%  {
-	color: #f00 !important;
-	text-shadow: 0 0 5px rgba(255, 100, 100, 1);
-}
-100% { color: #f22; !important }
+	0%   { color: #f22; !important }
+	50%  {
+		color: #f00 !important;
+		text-shadow: 0 0 5px rgba(255, 100, 100, 1);
+	}
+	100% { color: #f22; !important }
 }
 
 #-webkit-web-inspector #console-messages .console-error-level .console-message-text {
@@ -460,13 +469,13 @@ button.status-bar-item.toggled-on .glyph {
 /**********************************************/
 
 #-webkit-web-inspector .data-grid table {
-  color: white !important;
+	color: white !important;
 }
 
 #-webkit-web-inspector .network-graph-bar,
 #-webkit-web-inspector .network-graph-label,
 #-webkit-web-inspector .network-graph-bar-area {
-  color: white !important;
+	color: white !important;
 }
 
 /**********************************************/
@@ -527,10 +536,10 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .styles-element-state-pane {
-  background: #333 !important;
-  margin-top: -46px !important;
-  padding: 4px 0 !important;
-  border-bottom: 1px solid #666 !important;
+	background: #333 !important;
+	margin-top: -46px !important;
+	padding: 4px 0 !important;
+	border-bottom: 1px solid #666 !important;
 }
 
 #-webkit-web-inspector .styles-element-state-pane.expanded {
