@@ -26,6 +26,7 @@
 	lightgreen: #a6e70a;
 	lightblue: #72d9e7;
 	purple: #a775ff;
+	yellow: #e6da83;
 */
 
 /*
@@ -691,6 +692,50 @@ button.status-bar-item.toggled-on .glyph {
 /* Timeline */
 #-webkit-web-inspector .sidebar-tree-section {
 	text-shadow: none !important;
+}
+
+/* Sources */
+.cm-s-web-inspector-css span.cm-property {
+	color: #72d9e7 !important;
+}
+
+.CodeMirror .cm-atom,
+.cm-s-web-inspector-css span.cm-number,
+.cm-s-web-inspector-css span.cm-variable-2,
+.cm-s-web-inspector-css span.cm-string-2 {
+	color: #a775ff !important;
+}
+
+.cm-s-web-inspector-css span.cm-string {
+	color: #e6da83 !important;
+}
+
+.cm-s-web-inspector-css span.cm-comment {
+	color: #777 !important;
+}
+
+.cm-s-web-inspector-css span.cm-meta.
+.cm-s-web-inspector-css span..revision-history-link {
+	color: #00a8ff !important;
+}
+
+.cm-s-web-inspector-css span.cm-tag,
+.cm-s-web-inspector-css span.cm-qualifier {
+	color: #a6e70a !important;
+}
+
+body.drawer-visible #drawer {
+	background: #222 !important;
+}
+
+#-webkit-web-inspector .outline-disclosure > ol .source-code {
+	color: #000 !important;
+}
+
+#drawer-contents .webkit-line-number {
+	background: #333 !important;
+	border-right: 1px solid #222 !important;
+	color: #999 !important;
 }
 
 /**********************************************/
