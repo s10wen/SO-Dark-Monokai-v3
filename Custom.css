@@ -898,17 +898,8 @@ body.drawer-visible #drawer {
 	background: rgba(255, 255, 255, .2) !important;
 }
 
-#-webkit-web-inspector #elements-content .selection.selected {
-	z-index: 0 !important;
-}
-
 #-webkit-web-inspector #elements-content ol:focus li.selected .selection {
 	background: #444 !important;
-}
-
-#-webkit-web-inspector #elements-content .selected .highlight {
-	position: relative;
-	z-index: 2;
 }
 
 #-webkit-web-inspector #elements-content .selected {
