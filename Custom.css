@@ -26,7 +26,6 @@
 	lightgreen: #a6e70a;
 	lightblue: #72d9e7;
 	purple: #a775ff;
-	yellow: #e6da83;
 */
 
 /*
@@ -414,7 +413,8 @@ button.status-bar-item.toggled-on .glyph {
 	top: 34px !important;
 }
 
-.split-view-sidebar-right .pane .sidebar-separator {
+.split-view-sidebar-right  .sidebar-pane .sidebar-separator,
+.split-view-sidebar-right  .pane .sidebar-separator {
 	background-image: -webkit-linear-gradient(#505050,#383838) !important;
 	padding: 2px 5px !important;
 	border-top: 1px solid #636363 !important;
@@ -440,9 +440,15 @@ button.status-bar-item.toggled-on .glyph {
 	background-color: #111 !important;
 }
 
+#-webkit-web-inspector .name {
+	background-color: inherit !important;
+	color: #72D9E7 !important;
+}
+
 #-webkit-web-inspector .webkit-css-property,
 #-webkit-web-inspector .value {
 	background-color: inherit !important;
+	color: #A775FF;
 }
 
 #-webkit-web-inspector div.pane.expanded {
@@ -509,11 +515,13 @@ button.status-bar-item.toggled-on .glyph {
 	border-bottom: 1px solid #333 !important;
 }
 
-#-webkit-web-inspector .pane .monospace {
+#-webkit-web-inspector  .sidebar-pane .monospace,
+#-webkit-web-inspector  .pane .monospace {
 	border-top: #f00 !important;
 }
 
-#-webkit-web-inspector .pane > .title {
+#-webkit-web-inspector  .sidebar-pane > .title,
+#-webkit-web-inspector  .pane > .title {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)) !important;
 	color: #bbb !important;
 	text-shadow: 0 1px 0 black !important;
@@ -539,7 +547,8 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .pane .monospace,
-#-webkit-web-inspector .pane .source-code {
+#-webkit-web-inspector  .sidebar-pane .source-code,
+#-webkit-web-inspector  .pane .source-code {
 	color: #ccc !important;
 }
 
@@ -626,7 +635,8 @@ button.status-bar-item.toggled-on .glyph {
 
 
 /* DOM Breakpoints */
-#-webkit-web-inspector .pane > .body .info {
+#-webkit-web-inspector  .sidebar-pane > .body .info,
+#-webkit-web-inspector  .pane > .body .info {
 	color: #999 !important;
 	font-style: normal;
 }
@@ -694,50 +704,6 @@ button.status-bar-item.toggled-on .glyph {
 	text-shadow: none !important;
 }
 
-/* Sources */
-.cm-s-web-inspector-css span.cm-property {
-	color: #72d9e7 !important;
-}
-
-.CodeMirror .cm-atom,
-.cm-s-web-inspector-css span.cm-number,
-.cm-s-web-inspector-css span.cm-variable-2,
-.cm-s-web-inspector-css span.cm-string-2 {
-	color: #a775ff !important;
-}
-
-.cm-s-web-inspector-css span.cm-string {
-	color: #e6da83 !important;
-}
-
-.cm-s-web-inspector-css span.cm-comment {
-	color: #777 !important;
-}
-
-.cm-s-web-inspector-css span.cm-meta.
-.cm-s-web-inspector-css span..revision-history-link {
-	color: #00a8ff !important;
-}
-
-.cm-s-web-inspector-css span.cm-tag,
-.cm-s-web-inspector-css span.cm-qualifier {
-	color: #a6e70a !important;
-}
-
-body.drawer-visible #drawer {
-	background: #222 !important;
-}
-
-#-webkit-web-inspector .outline-disclosure > ol .source-code {
-	color: #000 !important;
-}
-
-#drawer-contents .webkit-line-number {
-	background: #333 !important;
-	border-right: 1px solid #222 !important;
-	color: #999 !important;
-}
-
 /**********************************************/
 /* Console
 /**********************************************/
@@ -770,19 +736,32 @@ body.drawer-visible #drawer {
 }
 
 #-webkit-web-inspector #console-messages .console-user-command > .console-message-text {
-	color: #ffd2a7 !important;
+	color: #E6DB74 !important;
 }
 
 #-webkit-web-inspector .console-formatted-number {
-	color: #ff73fd !important;
+	color: #FD971F !important;
 }
 
+#-webkit-web-inspector .console-formatted-array {
+	color: #A6E70A !important;
+}
+
+#-webkit-web-inspector .console-formatted-string,
 #-webkit-web-inspector #console-messages .console-formatted-string {
-	color: #a8ff60 !important;
+	color: #E6DB74 !important;
 }
 
 #-webkit-web-inspector #console-messages .console-formatted-object {
 	color: #7c7c7c !important;
+}
+
+#-webkit-web-inspector .console-formatted-object {
+	color: #A775FF !important;
+}
+
+#-webkit-web-inspector .console-formatted-boolean {
+	color: #F92672 !important;
 }
 
 #-webkit-web-inspector #console-messages .console-formatted-function {
@@ -801,6 +780,7 @@ body.drawer-visible #drawer {
 	color: #96cbfe !important;
 }
 
+#-webkit-web-inspector .styles-section.matched-styles .properties li.parent .expand-element,
 #-webkit-web-inspector #console-messages .console-group-messages .section .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent::before,
 #-webkit-web-inspector .outline-disclosure li.parent::before {
@@ -817,6 +797,7 @@ body.drawer-visible #drawer {
 	background-color: inherit !important;
 }
 
+#-webkit-web-inspector .styles-section.matched-styles .properties li.parent.expanded .expand-element,
 #-webkit-web-inspector #console-messages .console-group-messages .section.expanded .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent.expanded::before,
 #-webkit-web-inspector .outline-disclosure li.parent.expanded::before {
@@ -898,18 +879,18 @@ body.drawer-visible #drawer {
 	background: rgba(255, 255, 255, .2) !important;
 }
 
-#-webkit-web-inspector #elements-content .selection.selected {
+/*#-webkit-web-inspector #elements-content .selection.selected {
 	z-index: 0 !important;
-}
+}*/
 
 #-webkit-web-inspector #elements-content ol:focus li.selected .selection {
 	background: #444 !important;
 }
-
+/*
 #-webkit-web-inspector #elements-content .selected .highlight {
 	position: relative;
 	z-index: 2;
-}
+}*/
 
 #-webkit-web-inspector #elements-content .selected {
 	background-color: #333 !important;
