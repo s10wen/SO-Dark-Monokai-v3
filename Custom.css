@@ -27,6 +27,7 @@
 	lightblue: #72d9e7;
 	purple: #a775ff;
 	yellow: #e6da83;
+	darkred: #c41a16;
 */
 
 /*
@@ -465,11 +466,6 @@ button.status-bar-item.toggled-on .glyph {
 	opacity: 0.8 !important;
 }
 
-#-webkit-web-inspector .monospace,
-#-webkit-web-inspector .source-code {
-	color: #000 !important;
-}
-
 #-webkit-web-inspector .suggest-box {
 	color: #333 !important;
 	background-color: #efefef !important;
@@ -509,10 +505,6 @@ button.status-bar-item.toggled-on .glyph {
 	border-bottom: 1px solid #333 !important;
 }
 
-#-webkit-web-inspector .pane .monospace {
-	border-top: #f00 !important;
-}
-
 #-webkit-web-inspector .pane > .title {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)) !important;
 	color: #bbb !important;
@@ -540,7 +532,7 @@ button.status-bar-item.toggled-on .glyph {
 
 #-webkit-web-inspector .pane .monospace,
 #-webkit-web-inspector .pane .source-code {
-	color: #ccc !important;
+	color: #CCC !important;
 }
 
 #-webkit-web-inspector select.status-bar-item,
@@ -612,15 +604,28 @@ button.status-bar-item.toggled-on .glyph {
 	margin-bottom: 5px !important;
 }
 
+/* Scope Variables */
+#-webkit-web-inspector .console-formatted-object,
+#-webkit-web-inspector .console-formatted-node,
+#-webkit-web-inspector .console-formatted-array {
+	color: #a775ff !important;
+}
+
+#-webkit-web-inspector .section .properties .name,
+#-webkit-web-inspector .event-properties .name,
+#-webkit-web-inspector .console-formatted-object .name {
+	color: #72d9e7 !important;
+}
+
 /* Scripts */
 
 #-webkit-web-inspector .scripts.panel .sidebar-overlay {
-	background-color: #242424;
+	background: #242424;
 }
 
 #-webkit-web-inspector .scripts.panel .outline-disclosure li.selected .selection,
 #-webkit-web-inspector .outline-disclosure ol:focus li.selected {
-	background-color: #444 !important;
+	background: #444 !important;
 }
 
 
@@ -745,8 +750,28 @@ body.drawer-visible #drawer {
 }
 
 #-webkit-web-inspector .sidebar-pane > .body .info,
-#-webkit-web-inspector .sidebar-label {
+#-webkit-web-inspector .sidebar-label,
+#-webkit-web-inspector .placard .title,
+#-webkit-web-inspector .placard .subtitle {
 	color: #AAA !important;
+}
+
+/* Call Stack */
+#-webkit-web-inspector .placard.selected {
+	background: #333 !important;
+	border-top: 0 !important;
+}
+
+#-webkit-web-inspector .placard:nth-of-type(2n) {
+	background: #444 !important;
+	border-top: 0 !important;
+}
+
+#-webkit-web-inspector .sidebar-pane > .body .placard + .info {
+	background: #222 !important;
+	border-top: 0 !important;
+	color: #c41a16 !important;
+	font-style: normal !important;
 }
 
 /**********************************************/
