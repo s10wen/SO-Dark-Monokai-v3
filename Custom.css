@@ -580,7 +580,8 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 #-webkit-web-inspector .resources.panel .data-grid table.data,
-#-webkit-web-inspector .resources.panel table.header .data-grid th {
+#-webkit-web-inspector .resources.panel table.header .data-grid th,
+#-webkit-web-inspector .data-grid th {
 	background-image: none !important;
 }
 
