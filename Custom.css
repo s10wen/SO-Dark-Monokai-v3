@@ -393,7 +393,7 @@
 	background-color: none !important;
 }
 
-button.status-bar-item.toggled-on .glyph {
+#-webkit-web-inspector button.status-bar-item.toggled-on .glyph {
 	top: -1px !important;
 	background-color: #F9275D !important;
 }
@@ -415,7 +415,7 @@ button.status-bar-item.toggled-on .glyph {
 	top: 34px !important;
 }
 
-.split-view-sidebar-right .pane .sidebar-separator {
+#-webkit-web-inspector .split-view-sidebar-right .pane .sidebar-separator {
 	background-image: -webkit-linear-gradient(#505050,#383838) !important;
 	padding: 2px 5px !important;
 	border-top: 1px solid #636363 !important;
@@ -703,36 +703,36 @@ button.status-bar-item.toggled-on .glyph {
 }
 
 /* Sources */
-.cm-s-web-inspector-css span.cm-property {
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-property {
 	color: #72d9e7 !important;
 }
 
-.CodeMirror .cm-atom,
-.cm-s-web-inspector-css span.cm-number,
-.cm-s-web-inspector-css span.cm-variable-2,
-.cm-s-web-inspector-css span.cm-string-2 {
+#-webkit-web-inspector .CodeMirror .cm-atom,
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-number,
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-variable-2,
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-string-2 {
 	color: #a775ff !important;
 }
 
-.cm-s-web-inspector-css span.cm-string {
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-string {
 	color: #e6da83 !important;
 }
 
-.cm-s-web-inspector-css span.cm-comment {
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-comment {
 	color: #777 !important;
 }
 
-.cm-s-web-inspector-css span.cm-meta.
-.cm-s-web-inspector-css span..revision-history-link {
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-meta.
+#-webkit-web-inspector .cm-s-web-inspector-css span..revision-history-link {
 	color: #00a8ff !important;
 }
 
-.cm-s-web-inspector-css span.cm-tag,
-.cm-s-web-inspector-css span.cm-qualifier {
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-tag,
+#-webkit-web-inspector .cm-s-web-inspector-css span.cm-qualifier {
 	color: #a6e70a !important;
 }
 
-body.drawer-visible #drawer {
+#-webkit-web-inspector body.drawer-visible #drawer {
 	background: #222 !important;
 }
 
@@ -740,7 +740,7 @@ body.drawer-visible #drawer {
 	color: #000 !important;
 }
 
-#drawer-contents .webkit-line-number {
+#-webkit-web-inspector #drawer-contents .webkit-line-number {
 	background: #333 !important;
 	border-right: 1px solid #222 !important;
 	color: #999 !important;
