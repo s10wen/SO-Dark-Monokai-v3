@@ -842,7 +842,7 @@
 #-webkit-web-inspector #console-messages .console-group-messages .section .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent::before,
 #-webkit-web-inspector .outline-disclosure li.parent::before {
-	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) #242424 !important;
+	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallRightWhite.png) #242424 !important;
 }
 
 #-webkit-web-inspector .properties-tree li,
@@ -859,7 +859,7 @@
 #-webkit-web-inspector #console-messages .console-group-messages .section.expanded .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent.expanded::before,
 #-webkit-web-inspector .outline-disclosure li.parent.expanded::before {
-	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) #242424 !important;
+	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallDownWhite.png) #242424 !important;
 }
 
 @-webkit-keyframes webkit-error-level {
@@ -951,13 +951,13 @@
 }
 
 #-webkit-web-inspector #elements-content .parent::before {
-	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallRightWhite.png) !important;
 	position: relative;
 	z-index: 999;
 }
 
 #-webkit-web-inspector #elements-content .parent.expanded::before {
-	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallDownWhite.png) !important;
 }
 
 #-webkit-web-inspector .styles-element-state-pane {
