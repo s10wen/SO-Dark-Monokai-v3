@@ -943,6 +943,7 @@
 
 #-webkit-web-inspector #elements-content .selected {
 	background-color: #333 !important;
+	border-left: 3px solid #ccc !important;
 }
 
 #-webkit-web-inspector #elements-content .editing {
