@@ -1092,8 +1092,6 @@
 
 #-webkit-web-inspector .popover .content span {
 	color: #fff !important;
-	text-align: center !important;
-	display: block !important;
 	padding-top: 10px;
 }
 
