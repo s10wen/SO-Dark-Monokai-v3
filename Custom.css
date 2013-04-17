@@ -1080,3 +1080,24 @@
 #-webkit-web-inspector #toolbar .toolbar-item.console {
 	float: left;
 }
+
+/**********************************************/
+/* Popup (popover)
+/**********************************************/
+#-webkit-web-inspector .popover {
+	-webkit-border-image: none !important;
+	background: #333 !important;
+	box-shadow: 0 0 10px 0 #333 !important;
+}
+
+#-webkit-web-inspector .popover .content span {
+	color: #fff !important;
+	text-align: center !important;
+	display: block !important;
+	padding-top: 10px;
+}
+
+#-webkit-web-inspector .popover .arrow {
+	margin-left: 10px !important;
+	margin-top: -15px !important;
+}
