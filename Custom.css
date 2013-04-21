@@ -528,6 +528,7 @@
 #-webkit-web-inspector .monospace,
 #-webkit-web-inspector .source-code {
 	color: #CCC !important;
+	font-size: 12px !important;
 }
 
 #-webkit-web-inspector .pane .monospace,
