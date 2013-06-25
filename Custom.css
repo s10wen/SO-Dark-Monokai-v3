@@ -642,14 +642,16 @@
 #-webkit-web-inspector .section.expanded .header::before,
 #-webkit-web-inspector .event-bars .event-bar.expanded .header::before,
 #-webkit-web-inspector .section .properties-tree li.parent.expanded::before,
-#-webkit-web-inspector .computed-style .properties-tree li.parent.expanded::before {
+#-webkit-web-inspector .computed-style .properties-tree li.parent.expanded::before,
+#-webkit-web-inspector .event-listener-breakpoints li.parent.expanded::before {
 	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallDownWhite.png) !important;
 }
 
 #-webkit-web-inspector .section .header::before,
 #-webkit-web-inspector .event-bars .event-bar .header::before,
 #-webkit-web-inspector .section .properties-tree li.parent::before,
-#-webkit-web-inspector .computed-style .properties-tree li.parent::before {
+#-webkit-web-inspector .computed-style .properties-tree li.parent::before,
+#-webkit-web-inspector .event-listener-breakpoints li.parent::before {
 	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallRightWhite.png) !important;
 }
 
