@@ -1102,7 +1102,13 @@
 
 /* Set the console tab as the first item */
 #-webkit-web-inspector #toolbar .toolbar-item.console {
-	float: left;
+	position: absolute !important;
+	left: 0 !important;
+	top: 0 !important;
+}
+
+#-webkit-web-inspector #toolbar {
+	padding-left: 72px !important;
 }
 
 /**********************************************/
