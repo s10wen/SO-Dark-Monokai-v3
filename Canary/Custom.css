@@ -22,13 +22,23 @@
 /**********************************************/
 
 /*
-	Colours:
+	## Colours
 	lightgreen: #a6e70a;
 	lightblue: #72d9e7;
 	purple: #a775ff;
 	yellow: #e6da83;
 	darkred: #c41a16;
 */
+
+/*
+	## Images
+	disclosureTriangleSmallDownWhite.png
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==);
+
+	disclosureTriangleSmallRightWhite.png
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC);
+*/
+
 
 /*
 	Dock-To-Right when using vertical splitting:
