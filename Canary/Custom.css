@@ -776,6 +776,12 @@
 	color: #AAA !important;
 }
 
+/* Code Mirror */
+#-webkit-web-inspector div.CodeMirror span.CodeMirror-matchingbracket {
+	color: #fff !important;
+	text-decoration: underline !important;
+}
+
 /* Call Stack */
 #-webkit-web-inspector .placard.selected {
 	background: #333 !important;
