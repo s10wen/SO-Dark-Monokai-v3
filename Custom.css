@@ -31,6 +31,15 @@
 */
 
 /*
+	## Images
+	disclosureTriangleSmallDownWhite.png
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==);
+
+	disclosureTriangleSmallRightWhite.png
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC);
+*/
+
+/*
 	Dock-To-Right when using vertical splitting:
 	https://github.com/mauricelam/DockToRight
 
@@ -644,7 +653,7 @@
 #-webkit-web-inspector .section .properties-tree li.parent.expanded::before,
 #-webkit-web-inspector .computed-style .properties-tree li.parent.expanded::before,
 #-webkit-web-inspector .event-listener-breakpoints li.parent.expanded::before {
-	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallDownWhite.png) !important;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==) !important;
 }
 
 #-webkit-web-inspector .section .header::before,
@@ -652,7 +661,7 @@
 #-webkit-web-inspector .section .properties-tree li.parent::before,
 #-webkit-web-inspector .computed-style .properties-tree li.parent::before,
 #-webkit-web-inspector .event-listener-breakpoints li.parent::before {
-	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallRightWhite.png) !important;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) !important;
 }
 
 /* Network */
@@ -962,13 +971,13 @@
 }
 
 #-webkit-web-inspector #elements-content .parent::before {
-	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallRightWhite.png) !important;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) !important;
 	position: relative;
 	z-index: 999;
 }
 
 #-webkit-web-inspector #elements-content .parent.expanded::before {
-	content: url(chrome-devtools://devtools/Images/disclosureTriangleSmallDownWhite.png) !important;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==) !important;
 }
 
 #-webkit-web-inspector .styles-element-state-pane {
