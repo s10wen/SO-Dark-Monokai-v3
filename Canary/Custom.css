@@ -795,6 +795,24 @@
 	color: #AAA !important;
 }
 
+#-webkit-web-inspector .navigator-tabbed-pane .tabbed-pane-header,
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header,
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab {
+	background-image: none !important;
+	background-color: #222 !important;
+	color: #ccc !important;
+	border: 0 !important;
+}
+
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header {
+	border-bottom: 1px solid #333 !important;
+}
+
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab.selected {
+	background-color: #333 !important;
+	border-color: #222 !important;
+}
+
 /* Code Mirror */
 #-webkit-web-inspector div.CodeMirror span.CodeMirror-matchingbracket {
 	color: #fff !important;
