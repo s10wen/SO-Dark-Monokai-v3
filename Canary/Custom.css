@@ -593,6 +593,33 @@
 	background-color: #444 !important;
 }
 
+/* Tabs added in Version 31.0.1616.0 canary */
+#-webkit-web-inspector .sidebar-tabbed-pane .tabbed-pane-header {
+	background-image: none !important;
+	background-color: #222 !important;
+	border-color: #333 !important;
+	color: #ccc !important;
+}
+
+#-webkit-web-inspector .styles-element-state-pane {
+	height: auto !important;
+}
+
+#-webkit-web-inspector .tabbed-pane-header-tab {
+	padding: 4px !important;
+	margin: 0 !important;
+}
+
+#-webkit-web-inspector .tabbed-pane-header-tab.selected {
+	background-color: #333 !important;
+	border-color: #222 !important;
+}
+
+#-webkit-web-inspector .tabbed-pane-header-tabs-drop-down-container {
+	background: #444 !important;
+	padding: 0 2px 2px !important;
+}
+
 /* Resources info */
 #-webkit-web-inspector .resource-view.image .title {
 	color: #ccc !important;
