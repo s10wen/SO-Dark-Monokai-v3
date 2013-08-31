@@ -735,6 +735,13 @@
 	background: #333;
 }
 
+#-webkit-web-inspector #network-views .network-item-view .tabbed-pane-header {
+	background-image: none !important;
+	background-color: #222 !important;
+	border-color: #333 !important;
+	color: #ccc !important;
+}
+
 /* Timeline */
 #-webkit-web-inspector .sidebar-tree-section {
 	text-shadow: none !important;
