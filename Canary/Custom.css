@@ -826,6 +826,12 @@
 	text-decoration: underline !important;
 }
 
+#-webkit-web-inspector .CodeMirror-scroll,
+#-webkit-web-inspector .tabbed-pane-content,
+#-webkit-web-inspector .resource-view .script-view {
+	background: #222 !important;
+}
+
 /* Call Stack */
 #-webkit-web-inspector .placard.selected {
 	background: #333 !important;
@@ -974,6 +980,12 @@
 #-webkit-web-inspector .data-grid table {
 	color: white !important;
 	background: #222 !important;
+}
+
+#-webkit-web-inspector .data-grid tr.selected,
+#-webkit-web-inspector .data-grid table.data tr.revealed.selected:nth-child(odd) {
+	color: white !important;
+	background: #000 !important;
 }
 
 #-webkit-web-inspector .data-grid table.data tr.revealed:nth-child(odd) {
