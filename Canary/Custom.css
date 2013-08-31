@@ -1179,3 +1179,10 @@
 	margin-left: 10px !important;
 	margin-top: -15px !important;
 }
+
+/**********************************************/
+/* Settings
+/**********************************************/
+#-webkit-web-inspector #settings-screen .tabbed-pane-header-tab.selected {
+	background: #fff !important;
+}
