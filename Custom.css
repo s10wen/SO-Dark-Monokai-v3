@@ -412,10 +412,6 @@
 	color: #f8f8f8 !important;
 }
 
-#-webkit-web-inspector #toolbar div:first-child {
-	display: none !important;
-}
-
 #-webkit-web-inspector #toolbar > div:first-child {
 	display: block !important;
 }
