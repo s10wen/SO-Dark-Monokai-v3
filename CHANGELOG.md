@@ -1,6 +1,12 @@
 ### HEAD
 
 
+### 3.0.5 (October 3rd, 2013)
+
+* Version 30.0.1599.66 stable
+* Bring updates across from Canary build
+
+
 ### 3.0.4 (August 31, 2013)
 
 * Version 31.0.1616.0 canary
@@ -25,7 +31,7 @@
 * Replace white arrows with base64
 * Add base64 images for white arrows
 * Remove extra arrows
-* Fix arrows in Event Listeners 
+* Fix arrows in Event Listeners
 * Fix invisible underscores in console by enlarging the font one pixel
 * Update popup (popover) to improve readability
 * Add styles for popup (popover) fixes
