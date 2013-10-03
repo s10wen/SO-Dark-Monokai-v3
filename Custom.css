@@ -22,7 +22,7 @@
 /**********************************************/
 
 /*
-	Colours:
+	## Colours
 	lightgreen: #a6e70a;
 	lightblue: #72d9e7;
 	purple: #a775ff;
@@ -39,6 +39,7 @@
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC);
 */
 
+
 /*
 	Dock-To-Right when using vertical splitting:
 	https://github.com/mauricelam/DockToRight
@@ -53,7 +54,7 @@
 	 ************************************/
 
 	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements .split-view-contents:first-child,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.scripts .split-view-contents:first-child {
+	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources .split-view-contents:first-child {
 		width: 100%;
 		height: 75%;
 		top: auto !important;
@@ -61,7 +62,7 @@
 	}
 
 	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements .split-view-contents.split-view-sidebar-right,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.scripts .split-view-contents.split-view-sidebar-right {
+	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources .split-view-contents.split-view-sidebar-right {
 		width: 100% !important;
 		height: 25% !important;
 		left: 0;
@@ -69,25 +70,25 @@
 	}
 
 	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements > .split-view,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.scripts > .split-view {
+	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources > .split-view {
 		display: -webkit-flex;
 		-webkit-flex-flow: column;
 	}
 
 	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements > .split-view > * ,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.scripts > .split-view > * {
+	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources > .split-view > * {
 		-webkit-flex: 0;
 		position: relative !important;
 	}
 
 	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements > .split-view > :first-child,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.scripts > .split-view > :first-child {
+	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources > .split-view > :first-child {
 		-webkit-flex: 1;
 	}
 
 	/** Hide the resizers */
 	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements .split-view-resizer,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.scripts .split-view-resizer {
+	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources .split-view-resizer {
 		display: none;
 	}
 
@@ -412,10 +413,6 @@
 	color: #f8f8f8 !important;
 }
 
-#-webkit-web-inspector #toolbar > div:first-child {
-	display: block !important;
-}
-
 #-webkit-web-inspector #main {
 	top: 34px !important;
 }
@@ -596,6 +593,33 @@
 	background-color: #444 !important;
 }
 
+/* Tabs */
+#-webkit-web-inspector .sidebar-tabbed-pane .tabbed-pane-header {
+	background-image: none !important;
+	background-color: #222 !important;
+	border-color: #333 !important;
+	color: #ccc !important;
+}
+
+#-webkit-web-inspector .styles-element-state-pane {
+	height: auto !important;
+}
+
+#-webkit-web-inspector .tabbed-pane-header-tab {
+	padding: 4px !important;
+	margin: 0 !important;
+}
+
+#-webkit-web-inspector .tabbed-pane-header-tab.selected {
+	background-color: #333 !important;
+	border-color: #222 !important;
+}
+
+#-webkit-web-inspector .tabbed-pane-header-tabs-drop-down-container {
+	background: #444 !important;
+	padding: 0 2px 2px !important;
+}
+
 /* Resources info */
 #-webkit-web-inspector .resource-view.image .title {
 	color: #ccc !important;
@@ -626,11 +650,11 @@
 
 /* Scripts */
 
-#-webkit-web-inspector .scripts.panel .sidebar-overlay {
+#-webkit-web-inspector .sources.panel .sidebar-overlay {
 	background: #242424;
 }
 
-#-webkit-web-inspector .scripts.panel .outline-disclosure li.selected .selection,
+#-webkit-web-inspector .sources.panel .outline-disclosure li.selected .selection,
 #-webkit-web-inspector .outline-disclosure ol:focus li.selected {
 	background: #444 !important;
 }
@@ -658,6 +682,10 @@
 #-webkit-web-inspector .computed-style .properties-tree li.parent::before,
 #-webkit-web-inspector .event-listener-breakpoints li.parent::before {
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) !important;
+}
+
+#-webkit-web-inspector .event-listener-breakpoints .event-category {
+	color: #606060 !important; /* Sources > Event Listeners Text */
 }
 
 /* Network */
@@ -705,6 +733,13 @@
 
 #-webkit-web-inspector .network-log-grid.data-grid tr.filler {
 	background: #333;
+}
+
+#-webkit-web-inspector #network-views .network-item-view .tabbed-pane-header {
+	background-image: none !important;
+	background-color: #222 !important;
+	border-color: #333 !important;
+	color: #ccc !important;
 }
 
 /* Timeline */
@@ -765,6 +800,36 @@
 #-webkit-web-inspector .placard .title,
 #-webkit-web-inspector .placard .subtitle {
 	color: #AAA !important;
+}
+
+#-webkit-web-inspector .navigator-tabbed-pane .tabbed-pane-header,
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header,
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab {
+	background-image: none !important;
+	background-color: #222 !important;
+	color: #ccc !important;
+	border: 0 !important;
+}
+
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header {
+	border-bottom: 1px solid #333 !important;
+}
+
+#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab.selected {
+	background-color: #333 !important;
+	border-color: #222 !important;
+}
+
+/* Code Mirror */
+#-webkit-web-inspector div.CodeMirror span.CodeMirror-matchingbracket {
+	color: #fff !important;
+	text-decoration: underline !important;
+}
+
+#-webkit-web-inspector .CodeMirror-scroll,
+#-webkit-web-inspector .tabbed-pane-content,
+#-webkit-web-inspector .resource-view .script-view {
+	background: #222 !important;
 }
 
 /* Call Stack */
@@ -852,7 +917,7 @@
 #-webkit-web-inspector #console-messages .console-group-messages .section .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent::before,
 #-webkit-web-inspector .outline-disclosure li.parent::before {
-	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) !important;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) #242424 !important;
 }
 
 #-webkit-web-inspector .properties-tree li,
@@ -869,7 +934,7 @@
 #-webkit-web-inspector #console-messages .console-group-messages .section.expanded .header::before,
 #-webkit-web-inspector #console-messages .properties-tree li.parent.expanded::before,
 #-webkit-web-inspector .outline-disclosure li.parent.expanded::before {
-	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==) !important;
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==) #242424 !important;
 }
 
 @-webkit-keyframes webkit-error-level {
@@ -915,6 +980,12 @@
 #-webkit-web-inspector .data-grid table {
 	color: white !important;
 	background: #222 !important;
+}
+
+#-webkit-web-inspector .data-grid tr.selected,
+#-webkit-web-inspector .data-grid table.data tr.revealed.selected:nth-child(odd) {
+	color: white !important;
+	background: #000 !important;
 }
 
 #-webkit-web-inspector .data-grid table.data tr.revealed:nth-child(odd) {
@@ -1093,7 +1164,18 @@
 
 /* Set the console tab as the first item */
 #-webkit-web-inspector #toolbar .toolbar-item.console {
-	float: left;
+	position: absolute !important;
+	left: 0 !important;
+	top: 0 !important;
+}
+
+#-webkit-web-inspector #toolbar {
+	padding-left: 72px !important;
+}
+
+/* Hide the close button */
+#-webkit-web-inspector #toolbar .close-button {
+	display: none !important;
 }
 
 /**********************************************/
@@ -1113,4 +1195,11 @@
 #-webkit-web-inspector .popover .arrow {
 	margin-left: 10px !important;
 	margin-top: -15px !important;
+}
+
+/**********************************************/
+/* Settings
+/**********************************************/
+#-webkit-web-inspector #settings-screen .tabbed-pane-header-tab.selected {
+	background: #fff !important;
 }
