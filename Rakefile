@@ -47,10 +47,10 @@ task :install, :backup do |t, args|
             time_now = Time.now.strftime('%Y%m%d-%H%M%S')
             css_backup = File.join(profile_dir, "User StyleSheets", "Custom.css.#{time_now}")
             puts "Creating backup: #{css_backup}"
-            #FileUtils.cp css_old, css_backup
+            FileUtils.cp css_old, css_backup
           end
           puts "Copying: #{css_new} -> #{css_old}"
-          #FileUtils.cp css_new, css_old
+          FileUtils.cp css_new, css_old
         end
       }
     end
