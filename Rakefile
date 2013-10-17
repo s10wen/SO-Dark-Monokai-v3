@@ -32,7 +32,7 @@ task :install, :backup do |t, args|
     chrome_dirs.push File.join(home_dir, "Library", "Application Support", "Google", "Chrome Canary")
   elsif OS.win?
     chrome_dirs.push File.join(home_dir, "AppData", "Local", "Google", "Chrome", "User Data")
-    chrome_dirs.push File.join(home_dir, "AppData", "Local", "Google", "Chrome Canary", "User Data")
+    chrome_dirs.push File.join(home_dir, "AppData", "Local", "Google", "Chrome SxS", "User Data")
   else
     puts "Unsuported OS..."
   end
