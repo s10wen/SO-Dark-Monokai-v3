@@ -7,6 +7,14 @@ https://github.com/simonowendesign/SO-Dark-Monokai-v3
 
 ## Installation:
 
+
+### Automatic
+
+Run `rake` to copy the files to the correct locations.
+
+
+### Manual
+
 1. Find your Chrome's user stylesheets directory:
 
 	Mac - Finder > shift + cmd + g:
@@ -40,21 +48,17 @@ https://github.com/simonowendesign/SO-Dark-Monokai-v3
 
 ## Credits
 
-Taken from the below and tweaked by Simon Owen (@simonowendesign)
-
 IR_Dark_Monokai
-Designed and developed by Andres Pagella (@mapagella)
+Designed and developed by Andres Pagella:
 http://www.andrespagella.com/customising-chrome-devtools
 
-Extra tweaks by James Doyle @james2doyle:
+James Doyle:
 https://github.com/james2doyle/SO-Dark-Monokai-v3/commits/master
 
-Based on Ben Truyman's IR_Black
-which is...
-Based on Todd Werth's IR_Black:
+Ben Truyman, Todd Werth:
 http://blog.toddwerth.com/entries/2
 
-With some toolbar code from Harris Novick:
+Toolbar code by Harris Novick:
 https://gist.github.com/4316646
 
 Inspired by Darcy Clarke's blog post:
@@ -62,3 +66,6 @@ http://darcyclarke.me/design/skin-your-chrome-inspector/
 
 Dock-To-Right when using vertical splitting:
 https://github.com/mauricelam/DockToRight
+
+Automatic rake file by Rodolfo Puig:
+https://github.com/simonowendesign/SO-Dark-Monokai-v3/pull/21
