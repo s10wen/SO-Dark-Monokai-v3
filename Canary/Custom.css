@@ -1179,6 +1179,11 @@
 	display: none !important;
 }
 
+/* Remove the undock icon from bottom right corner */
+#-blink-dev-tools .long-click-glyph {
+	background: none !important;
+}
+
 /**********************************************/
 /* Popup (popover)
 /**********************************************/
