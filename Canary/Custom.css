@@ -53,60 +53,60 @@
 	 * Vertical split view (for split view right, i.e. Elements and Scripts)
 	 ************************************/
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements .split-view-contents:first-child,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources .split-view-contents:first-child {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.elements .split-view-contents:first-child,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.sources .split-view-contents:first-child {
 		width: 100%;
 		height: 75%;
 		top: auto !important;
 		bottom: auto !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements .split-view-contents.split-view-sidebar-right,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources .split-view-contents.split-view-sidebar-right {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.elements .split-view-contents.split-view-sidebar-right,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.sources .split-view-contents.split-view-sidebar-right {
 		width: 100% !important;
 		height: 25% !important;
 		left: 0;
 		box-shadow: 0 -1px 2px rgba(0,0,0,0.5);
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements > .split-view,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources > .split-view {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.elements > .split-view,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.sources > .split-view {
 		display: -webkit-flex;
 		-webkit-flex-flow: column;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements > .split-view > * ,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources > .split-view > * {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.elements > .split-view > * ,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.sources > .split-view > * {
 		-webkit-flex: 0;
 		position: relative !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements > .split-view > :first-child,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources > .split-view > :first-child {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.elements > .split-view > :first-child,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.sources > .split-view > :first-child {
 		-webkit-flex: 1;
 	}
 
 	/** Hide the resizers */
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.elements .split-view-resizer,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.sources .split-view-resizer {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.elements .split-view-resizer,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.sources .split-view-resizer {
 		display: none;
 	}
 
 	/************************************
 	 * Vertical split view (for split view left, i.e. Resources, Audits and Profiles)
 	 ************************************/
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.resources .split-view-sidebar-left,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.audits .split-view-sidebar-left,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.profiles .split-view-sidebar-left{
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.resources .split-view-sidebar-left,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.audits .split-view-sidebar-left,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.profiles .split-view-sidebar-left{
 		width: 100% !important;
 		height: 20% !important;
 		box-shadow: 0 1px 2px rgba(0,0,0,0.5);
 		z-index: 999;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.resources .split-view-contents:nth-child(2),
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.audits .split-view-contents:nth-child(2),
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.profiles .split-view-contents:nth-child(2) {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.resources .split-view-contents:nth-child(2),
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.audits .split-view-contents:nth-child(2),
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.profiles .split-view-contents:nth-child(2) {
 		width: 100% !important;
 		height: 0% !important;
 		top: 20% !important;
@@ -115,15 +115,15 @@
 	}
 
 	/** Hide the resizers */
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.profiles .split-view-resizer,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.audits .split-view-resizer,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-resizer,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.resources .split-view-resizer {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.profiles .split-view-resizer,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.audits .split-view-resizer,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-resizer,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.resources .split-view-resizer {
 		display: none;
 	}
 
 	/** Sliding resources panel (Optional add-on) */
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.resources .split-view-sidebar-left {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.resources .split-view-sidebar-left {
 		height: 20% !important;
 		top: auto !important;
 		bottom: 0 !important;
@@ -131,12 +131,12 @@
 		box-shadow: 0px -1px 3px rgba(0,0,0,0.7);
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.resources .split-view-contents:nth-child(2) {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.resources .split-view-contents:nth-child(2) {
 		top: 0 !important;
 		height: 80% !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.resources .split-view-sidebar-left:hover {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.resources .split-view-sidebar-left:hover {
 		height: 50% !important;
 	}
 
@@ -144,20 +144,20 @@
 	 * Slim Timeline
 	 ************************************/
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-resizer {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-resizer {
 		display: none;
 	}
 
 	 /** Overview (top panel) */
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline #timeline-overview-sidebar {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline #timeline-overview-sidebar {
 		width: 40px !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .sidebar-tree-item:hover {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .sidebar-tree-item:hover {
 		overflow: visible !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .sidebar-tree-item > .titles {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .sidebar-tree-item > .titles {
 		position: absolute !important;
 		left: 45px;
 		z-index: 999 !important;
@@ -167,13 +167,13 @@
 		padding: 0 2px;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline #timeline-overview-container {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline #timeline-overview-container {
 		left: 40px !important;
 	}
 
 	/** Middle and Bottom panel */
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .sidebar-tree-section {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .sidebar-tree-section {
 		/** COUNTERS and RECORDS label */
 		padding-left: 0px !important;
 		font-size: 8px !important;
@@ -181,34 +181,34 @@
 		padding-top: 3px !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-contents:nth-child(2) {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-contents:nth-child(2) {
 		left: 40px !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline #timeline-grid-header {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline #timeline-grid-header {
 		left: 40px !important;
 		width: auto !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left {
 		width: 40px !important;
 		overflow: visible !important;
 	}
 
 	/** Records tree (middle panel) */
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline #timeline-container > * {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline #timeline-container > * {
 		z-index: 0;
 		overflow: hidden;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item {
 		text-overflow: clip !important;
 		display: inline-block !important;
 		width: 100%;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item:hover {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item:hover {
 		width: auto;
 		background-color: rgba(214, 221, 229, 0.8) !important;
 		box-shadow: 0 1px 3px rgba(0,0,0,1);
@@ -216,29 +216,29 @@
 		z-index: 999999;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item:hover:nth-child(odd) {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item:hover:nth-child(odd) {
 		background-color: rgba(203, 209, 217, 0.8) !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item:hover > span:last-child {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .timeline-tree-item:hover > span:last-child {
 		padding-right: 2px;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline #timeline-grid-header {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline #timeline-grid-header {
 		z-index: 0;
 	}
 
 	/** Memory counter (bottom panel) */
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline #memory-graphs-container .split-view-contents {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline #memory-graphs-container .split-view-contents {
 		z-index: 0;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline #memory-graphs-container .split-view-sidebar-left {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline #memory-graphs-container .split-view-sidebar-left {
 		z-index: 1;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .memory-counter-sidebar-info {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .memory-counter-sidebar-info {
 		white-space: nowrap;
 		overflow: hidden !important;
 		margin: 0 !important;
@@ -247,11 +247,11 @@
 		width: 100%;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .memory-counter-sidebar-info:hover {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .memory-counter-sidebar-info:hover {
 		width: auto;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .memory-counter-sidebar-info:hover > div {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.timeline .split-view-sidebar-left .memory-counter-sidebar-info:hover > div {
 		background: rgba(215, 221, 229, 0.8);
 		box-shadow: 0 1px 3px rgba(0,0,0,1);
 		padding: 0;
@@ -263,11 +263,11 @@
 	 * Scrollable Network Tab
 	 ************************************/
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network #network-container {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network #network-container {
 		overflow-x: auto !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .network-log-grid {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .network-log-grid {
 		width: 200% !important;
 	}
 
@@ -275,12 +275,12 @@
 	 * Networks Tab: Hover to show overlay
 	 ************************************/
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.data td:hover {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.data td:hover {
 		position: relative !important;
 		overflow: visible !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.data td:not(:last-child):hover > div {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.data td:not(:last-child):hover > div {
 		overflow: visible !important;
 		position: relative;
 		display: inline-block;
@@ -290,12 +290,12 @@
 		padding: 0 2px !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.header th > div,
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.data td > div {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.header th > div,
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid table.data td > div {
 		text-overflow: clip !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid:not(.small) table.data td.name-column .network-cell-subtitle {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .network-log-grid.data-grid:not(.small) table.data td.name-column .network-cell-subtitle {
 		/** Make sure the box width is correct (this subtitle is floating) */
 		padding-left: 35px;
 	}
@@ -304,18 +304,18 @@
 	 * Networks tab: Vertical split view for resource preview
 	 ************************************/
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .split-view {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .split-view {
 		display: -webkit-flex;
 		-webkit-flex-direction: column;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network .split-view-sidebar-left {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network .split-view-sidebar-left {
 		width: 100% !important;
 		-webkit-flex: 1;
 		position: relative !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) .panel.network #network-views {
+	#-blink-dev-tools.dock-to-right:not(.detached) .panel.network #network-views {
 		box-shadow: 0 -1px 3px rgba(0,0,0,0.7);
 		left: 0 !important;
 		height: 40% !important;
@@ -329,7 +329,7 @@
 
 	 /** A 2-line console that slides up when you hover on it */
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) #drawer {
+	#-blink-dev-tools.dock-to-right:not(.detached) #drawer {
 		z-index: 9;
 		box-shadow: 0 -2px 1px rgba(0,0,0,0.5);
 		height: 63px !important;
@@ -338,25 +338,25 @@
 		-webkit-transition: height 0.2s ease 0.2s;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) #drawer:hover {
+	#-blink-dev-tools.dock-to-right:not(.detached) #drawer:hover {
 		height: 200px !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) #drawer-contents {
+	#-blink-dev-tools.dock-to-right:not(.detached) #drawer-contents {
 		top: auto !important;
 		bottom: 10px !important;
 		height: 200px;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) #main {
+	#-blink-dev-tools.dock-to-right:not(.detached) #main {
 		bottom: 0 !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached).drawer-visible #main {
+	#-blink-dev-tools.dock-to-right:not(.detached).drawer-visible #main {
 		bottom: 63px !important;
 	}
 
-	#-webkit-web-inspector.dock-to-right:not(.detached) #drawer #console-messages {
+	#-blink-dev-tools.dock-to-right:not(.detached) #drawer #console-messages {
 		display: table-cell;
 		vertical-align: bottom;
 		position: static !important;
@@ -368,12 +368,12 @@
 /*
 	Styles
 */
-#-webkit-web-inspector,
-#-webkit-web-inspector .split-view-contents {
+#-blink-dev-tools,
+#-blink-dev-tools .split-view-contents {
 	background-color: #242424;
 }
 
-#-webkit-web-inspector #toolbar {
+#-blink-dev-tools #toolbar {
 	background: -webkit-linear-gradient(#505050,#383838) !important;
 	border-top: 1px solid #222 !important;
 	border-bottom: 1px solid #222 !important;
@@ -381,13 +381,13 @@
 	height: auto !important;
 }
 
-#-webkit-web-inspector .toolbar-label {
+#-blink-dev-tools .toolbar-label {
 	color: #999 !important;
 	position: relative !important;
 	top: 0 !important;
 }
 
-#-webkit-web-inspector #toolbar > button {
+#-blink-dev-tools #toolbar > button {
 	box-shadow: none !important;
 	border: 0 none !important;
 	line-height: 22px !important;
@@ -395,29 +395,29 @@
 	cursor: pointer !important;
 }
 
-#-webkit-web-inspector .toolbar-item.toggleable.toggled-on {
+#-blink-dev-tools .toolbar-item.toggleable.toggled-on {
 	background-color: rgba(0,0,0,0.4) !important;
 }
 
-#-webkit-web-inspector button:hover {
+#-blink-dev-tools button:hover {
 	background-color: none !important;
 }
 
-#-webkit-web-inspector button.status-bar-item.toggled-on .glyph {
+#-blink-dev-tools button.status-bar-item.toggled-on .glyph {
 	top: -1px !important;
 	background-color: #F9275D !important;
 }
 
-#-webkit-web-inspector #toolbar > button:hover .toolbar-label,
-#-webkit-web-inspector .toolbar-item.toggleable.toggled-on .toolbar-label {
+#-blink-dev-tools #toolbar > button:hover .toolbar-label,
+#-blink-dev-tools .toolbar-item.toggleable.toggled-on .toolbar-label {
 	color: #f8f8f8 !important;
 }
 
-#-webkit-web-inspector #main {
+#-blink-dev-tools #main {
 	top: 34px !important;
 }
 
-#-webkit-web-inspector .split-view-sidebar-right .pane .sidebar-separator {
+#-blink-dev-tools .split-view-sidebar-right .pane .sidebar-separator {
 	background-image: -webkit-linear-gradient(#505050,#383838) !important;
 	padding: 2px 5px !important;
 	border-top: 1px solid #636363 !important;
@@ -430,76 +430,76 @@
 	font-size: 11px !important;
 }
 
-#-webkit-web-inspector .toolbar-item {
+#-blink-dev-tools .toolbar-item {
 	height: 37px !important;
 }
 
-#-webkit-web-inspector .close-left {
+#-blink-dev-tools .close-left {
 	margin: 10px 0 0 0 !important;
 }
 
 /* Panes */
-#-webkit-web-inspector #main ol {
+#-blink-dev-tools #main ol {
 	background-color: #111 !important;
 }
 
-#-webkit-web-inspector .webkit-css-property,
-#-webkit-web-inspector .value {
+#-blink-dev-tools .webkit-css-property,
+#-blink-dev-tools .value {
 	background-color: inherit !important;
 }
 
-#-webkit-web-inspector div.pane.expanded {
+#-blink-dev-tools div.pane.expanded {
 	background-color: #111;
 }
 
-#-webkit-web-inspector .styles-section.read-only {
+#-blink-dev-tools .styles-section.read-only {
 	background-color: #222 !important;
 }
 
-#-webkit-web-inspector .styles-section {
+#-blink-dev-tools .styles-section {
 	padding: 4px 0 !important;
 }
 
-#-webkit-web-inspector .styles-section .header .subtitle {
+#-blink-dev-tools .styles-section .header .subtitle {
 	color: #666 !important;
 }
 
-#-webkit-web-inspector .section .properties .dimmed {
+#-blink-dev-tools .section .properties .dimmed {
 	opacity: 0.8 !important;
 }
 
-#-webkit-web-inspector .suggest-box {
+#-blink-dev-tools .suggest-box {
 	color: #333 !important;
 	background-color: #efefef !important;
 }
 
-#-webkit-web-inspector .suggest-box-content-item.source-code {
+#-blink-dev-tools .suggest-box-content-item.source-code {
 	color: #999 !important;
 }
 
-#-webkit-web-inspector .suggest-box-content-item.source-code.selected {
+#-blink-dev-tools .suggest-box-content-item.source-code.selected {
 	color: #FFF !important;
 	background-color: #242424 !important;
 }
 
-#-webkit-web-inspector .styles-section .properties > li .webkit-css-property {
+#-blink-dev-tools .styles-section .properties > li .webkit-css-property {
 	color: #72d9e7 !important;
 	font-weight: normal;
 }
 
-#-webkit-web-inspector .styles-element-state-pane.expanded {
+#-blink-dev-tools .styles-element-state-pane.expanded {
 	border-bottom: 1px solid #555 !important;
 }
 
-#-webkit-web-inspector .styles-element-state-pane {
+#-blink-dev-tools .styles-element-state-pane {
 	background: #333 !important;
 }
 
-#-webkit-web-inspector .styles-section .value {
+#-blink-dev-tools .styles-section .value {
 	color: #a775ff !important;
 }
 
-#-webkit-web-inspector .sidebar-separator {
+#-blink-dev-tools .sidebar-separator {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), color-stop(0.05, #666), color-stop(0.05, #333), to(#444)) !important;
 	color: #CCC !important;
 	text-shadow: none !important;
@@ -507,7 +507,7 @@
 	border-bottom: 1px solid #333 !important;
 }
 
-#-webkit-web-inspector .pane > .title {
+#-blink-dev-tools .pane > .title {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#666), to(#444)) !important;
 	color: #bbb !important;
 	text-shadow: 0 1px 0 black !important;
@@ -515,227 +515,227 @@
 	border-bottom: 1px solid #333 !important;
 }
 
-#-webkit-web-inspector .split-view-sidebar-right {
+#-blink-dev-tools .split-view-sidebar-right {
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%,#333333), color-stop(100%,#252525)) !important;
 }
 
-#-webkit-web-inspector #error-warning-count {
+#-blink-dev-tools #error-warning-count {
 	color: #CCC !important;
 }
 
-#-webkit-web-inspector #main-status-bar {
+#-blink-dev-tools #main-status-bar {
 	border-top: 1px solid #333 !important;
 }
 
-#-webkit-web-inspector .monospace,
-#-webkit-web-inspector .source-code {
+#-blink-dev-tools .monospace,
+#-blink-dev-tools .source-code {
 	color: #CCC !important;
 	font-size: 12px !important;
 }
 
-#-webkit-web-inspector .pane .monospace,
-#-webkit-web-inspector .pane .source-code {
+#-blink-dev-tools .pane .monospace,
+#-blink-dev-tools .pane .source-code {
 	color: #CCC !important;
 }
 
-#-webkit-web-inspector select.status-bar-item,
-#-webkit-web-inspector select.status-bar-item:hover,
-#-webkit-web-inspector .scope-bar li {
+#-blink-dev-tools select.status-bar-item,
+#-blink-dev-tools select.status-bar-item:hover,
+#-blink-dev-tools .scope-bar li {
 	color: #AAA !important;
 	text-shadow: none !important;
 }
 
-#-webkit-web-inspector .scope-bar li.selected {
+#-blink-dev-tools .scope-bar li.selected {
 	color: white !important;
 }
 
-#-webkit-web-inspector select.status-bar-item,
-#-webkit-web-inspector select.status-bar-item:hover {
+#-blink-dev-tools select.status-bar-item,
+#-blink-dev-tools select.status-bar-item:hover {
 	border-left: 1px solid #333 !important;
 	border-right: 1px solid #AAA !important;
 }
 
-#-webkit-web-inspector .split-view-sidebar-right {
+#-blink-dev-tools .split-view-sidebar-right {
 	border-left: 1px solid #3A3A3A !important;
 	-webkit-box-shadow: none !important;
 }
 
-#-webkit-web-inspector .selector-matches {
+#-blink-dev-tools .selector-matches {
 	color: #a6e70a !important;
 }
 /* Resources Tab */
-#-webkit-web-inspector .sidebar-tree,
-#-webkit-web-inspector .resources.panel .base-storage-tree-element-title,
-#-webkit-web-inspector .resources.panel .base-storage-tree-element-subtitle,
-#-webkit-web-inspector .base-navigator-tree-element-title {
+#-blink-dev-tools .sidebar-tree,
+#-blink-dev-tools .resources.panel .base-storage-tree-element-title,
+#-blink-dev-tools .resources.panel .base-storage-tree-element-subtitle,
+#-blink-dev-tools .base-navigator-tree-element-title {
 	color: #999 !important;
 }
 
-#-webkit-web-inspector .selected .sidebar-tree,
-#-webkit-web-inspector .resources.panel .selected .base-storage-tree-element-title,
-#-webkit-web-inspector .resources.panel .selected .base-storage-tree-element-subtitle,
-#-webkit-web-inspector .selected .base-navigator-tree-element-title {
+#-blink-dev-tools .selected .sidebar-tree,
+#-blink-dev-tools .resources.panel .selected .base-storage-tree-element-title,
+#-blink-dev-tools .resources.panel .selected .base-storage-tree-element-subtitle,
+#-blink-dev-tools .selected .base-navigator-tree-element-title {
 	color: #fff !important;
 }
 
-#-webkit-web-inspector .resources.panel .sidebar {
+#-blink-dev-tools .resources.panel .sidebar {
 	background-color: #242424 !important;
 }
 
-#-webkit-web-inspector .resources.panel .data-grid table.data,
-#-webkit-web-inspector .resources.panel table.header .data-grid th,
-#-webkit-web-inspector .data-grid th {
+#-blink-dev-tools .resources.panel .data-grid table.data,
+#-blink-dev-tools .resources.panel table.header .data-grid th,
+#-blink-dev-tools .data-grid th {
 	background-image: none !important;
 }
 
-#-webkit-web-inspector .resources.panel .data-grid tr.selected,
-#-webkit-web-inspector .resources.panel .data-grid:focus tr.selected {
+#-blink-dev-tools .resources.panel .data-grid tr.selected,
+#-blink-dev-tools .resources.panel .data-grid:focus tr.selected {
 	background-color: #444 !important;
 }
 
-/* Tabs added in Version 31.0.1616.0 canary */
-#-webkit-web-inspector .sidebar-tabbed-pane .tabbed-pane-header {
+/* Tabs */
+#-blink-dev-tools .sidebar-tabbed-pane .tabbed-pane-header {
 	background-image: none !important;
 	background-color: #222 !important;
 	border-color: #333 !important;
 	color: #ccc !important;
 }
 
-#-webkit-web-inspector .styles-element-state-pane {
+#-blink-dev-tools .styles-element-state-pane {
 	height: auto !important;
 }
 
-#-webkit-web-inspector .tabbed-pane-header-tab {
+#-blink-dev-tools .tabbed-pane-header-tab {
 	padding: 4px !important;
 	margin: 0 !important;
 }
 
-#-webkit-web-inspector .tabbed-pane-header-tab.selected {
+#-blink-dev-tools .tabbed-pane-header-tab.selected {
 	background-color: #333 !important;
 	border-color: #222 !important;
 }
 
-#-webkit-web-inspector .tabbed-pane-header-tabs-drop-down-container {
+#-blink-dev-tools .tabbed-pane-header-tabs-drop-down-container {
 	background: #444 !important;
 	padding: 0 2px 2px !important;
 }
 
 /* Resources info */
-#-webkit-web-inspector .resource-view.image .title {
+#-blink-dev-tools .resource-view.image .title {
 	color: #ccc !important;
 }
 
-#-webkit-web-inspector .resource-view.image .infoList dt {
+#-blink-dev-tools .resource-view.image .infoList dt {
 	color: #666 !important;
 	margin-bottom: 5px !important;
 }
 
-#-webkit-web-inspector .resource-view.image .infoList dd {
+#-blink-dev-tools .resource-view.image .infoList dd {
 	color: #888 !important;
 	margin-bottom: 5px !important;
 }
 
 /* Scope Variables */
-#-webkit-web-inspector .console-formatted-object,
-#-webkit-web-inspector .console-formatted-node,
-#-webkit-web-inspector .console-formatted-array {
+#-blink-dev-tools .console-formatted-object,
+#-blink-dev-tools .console-formatted-node,
+#-blink-dev-tools .console-formatted-array {
 	color: #a775ff !important;
 }
 
-#-webkit-web-inspector .section .properties .name,
-#-webkit-web-inspector .event-properties .name,
-#-webkit-web-inspector .console-formatted-object .name {
+#-blink-dev-tools .section .properties .name,
+#-blink-dev-tools .event-properties .name,
+#-blink-dev-tools .console-formatted-object .name {
 	color: #72d9e7 !important;
 }
 
 /* Scripts */
 
-#-webkit-web-inspector .sources.panel .sidebar-overlay {
+#-blink-dev-tools .sources.panel .sidebar-overlay {
 	background: #242424;
 }
 
-#-webkit-web-inspector .sources.panel .outline-disclosure li.selected .selection,
-#-webkit-web-inspector .outline-disclosure ol:focus li.selected {
+#-blink-dev-tools .sources.panel .outline-disclosure li.selected .selection,
+#-blink-dev-tools .outline-disclosure ol:focus li.selected {
 	background: #444 !important;
 }
 
 
 
 /* DOM Breakpoints */
-#-webkit-web-inspector .pane > .body .info {
+#-blink-dev-tools .pane > .body .info {
 	color: #999 !important;
 	font-style: normal;
 }
 
 /* Add drop down arrows to Event Listeners */
-#-webkit-web-inspector .section.expanded .header::before,
-#-webkit-web-inspector .event-bars .event-bar.expanded .header::before,
-#-webkit-web-inspector .section .properties-tree li.parent.expanded::before,
-#-webkit-web-inspector .computed-style .properties-tree li.parent.expanded::before,
-#-webkit-web-inspector .event-listener-breakpoints li.parent.expanded::before {
+#-blink-dev-tools .section.expanded .header::before,
+#-blink-dev-tools .event-bars .event-bar.expanded .header::before,
+#-blink-dev-tools .section .properties-tree li.parent.expanded::before,
+#-blink-dev-tools .computed-style .properties-tree li.parent.expanded::before,
+#-blink-dev-tools .event-listener-breakpoints li.parent.expanded::before {
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==) !important;
 }
 
-#-webkit-web-inspector .section .header::before,
-#-webkit-web-inspector .event-bars .event-bar .header::before,
-#-webkit-web-inspector .section .properties-tree li.parent::before,
-#-webkit-web-inspector .computed-style .properties-tree li.parent::before,
-#-webkit-web-inspector .event-listener-breakpoints li.parent::before {
+#-blink-dev-tools .section .header::before,
+#-blink-dev-tools .event-bars .event-bar .header::before,
+#-blink-dev-tools .section .properties-tree li.parent::before,
+#-blink-dev-tools .computed-style .properties-tree li.parent::before,
+#-blink-dev-tools .event-listener-breakpoints li.parent::before {
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) !important;
 }
 
-#-webkit-web-inspector .event-listener-breakpoints .event-category {
+#-blink-dev-tools .event-listener-breakpoints .event-category {
 	color: #606060 !important; /* Sources > Event Listeners Text */
 }
 
 /* Network */
-#-webkit-web-inspector #network-views .network-item-view {
+#-blink-dev-tools #network-views .network-item-view {
 	background: #242424 !important;
 }
 
-#-webkit-web-inspector .network-log-grid.data-grid table {
+#-blink-dev-tools .network-log-grid.data-grid table {
 	color: #333 !important;
 }
 
-#-webkit-web-inspector .outline-disclosure > ol,
-#-webkit-web-inspector .resource-headers-view .outline-disclosure .parent {
+#-blink-dev-tools .outline-disclosure > ol,
+#-blink-dev-tools .resource-headers-view .outline-disclosure .parent {
 	color: #CCC !important;
 }
 
-#-webkit-web-inspector .resource-headers-view .outline-disclosure .header-name {
+#-blink-dev-tools .resource-headers-view .outline-disclosure .header-name {
 	color: #777 !important;
 }
 
-#-webkit-web-inspector .network-log-grid.data-grid tr.filler {
+#-blink-dev-tools .network-log-grid.data-grid tr.filler {
 	background-color: #242424 !important;
 }
 
-#-webkit-web-inspector .data-grid td > div {
+#-blink-dev-tools .data-grid td > div {
 	color: #CCC !important;
 }
 
-#-webkit-web-inspector .network-cell-subtitle {
+#-blink-dev-tools .network-cell-subtitle {
 	color: #888 !important;
 }
 
-#-webkit-web-inspector .network-log-grid.data-grid td {
+#-blink-dev-tools .network-log-grid.data-grid td {
 	border-right: 1px solid #333 !important;
 }
 
-#-webkit-web-inspector .network-graph-side:hover .network-graph-label {
+#-blink-dev-tools .network-graph-side:hover .network-graph-label {
 	color: #fff !important;
 	font-size: 12px !important;
 }
 
-#-webkit-web-inspector .data-grid:focus tr.selected {
+#-blink-dev-tools .data-grid:focus tr.selected {
 	background: #000 !important;
 }
 
-#-webkit-web-inspector .network-log-grid.data-grid tr.filler {
+#-blink-dev-tools .network-log-grid.data-grid tr.filler {
 	background: #333;
 }
 
-#-webkit-web-inspector #network-views .network-item-view .tabbed-pane-header {
+#-blink-dev-tools #network-views .network-item-view .tabbed-pane-header {
 	background-image: none !important;
 	background-color: #222 !important;
 	border-color: #333 !important;
@@ -743,107 +743,107 @@
 }
 
 /* Timeline */
-#-webkit-web-inspector .sidebar-tree-section {
+#-blink-dev-tools .sidebar-tree-section {
 	text-shadow: none !important;
 }
 
 /* Sources */
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-property {
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-property {
 	color: #72d9e7 !important;
 }
 
-#-webkit-web-inspector .CodeMirror .cm-atom,
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-number,
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-variable-2,
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-string-2 {
+#-blink-dev-tools .CodeMirror .cm-atom,
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-number,
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-variable-2,
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-string-2 {
 	color: #a775ff !important;
 }
 
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-string {
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-string {
 	color: #e6da83 !important;
 }
 
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-comment {
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-comment {
 	color: #777 !important;
 }
 
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-meta.
-#-webkit-web-inspector .cm-s-web-inspector-css span..revision-history-link {
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-meta.
+#-blink-dev-tools .cm-s-web-inspector-css span..revision-history-link {
 	color: #00a8ff !important;
 }
 
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-tag,
-#-webkit-web-inspector .cm-s-web-inspector-css span.cm-qualifier {
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-tag,
+#-blink-dev-tools .cm-s-web-inspector-css span.cm-qualifier {
 	color: #a6e70a !important;
 }
 
-#-webkit-web-inspector body.drawer-visible #drawer {
+#-blink-dev-tools body.drawer-visible #drawer {
 	background: #222 !important;
 }
 
-#-webkit-web-inspector .outline-disclosure > ol .source-code {
+#-blink-dev-tools .outline-disclosure > ol .source-code {
 	color: #999 !important; /* Fixes Network > Headers */
 }
 
-#-webkit-web-inspector #drawer-contents .webkit-line-number {
+#-blink-dev-tools #drawer-contents .webkit-line-number {
 	background: #333 !important;
 	border-right: 1px solid #222 !important;
 	color: #999 !important;
 }
 
-#-webkit-web-inspector .breakpoint-list li {
+#-blink-dev-tools .breakpoint-list li {
 	color: #e6da83 !important;
 }
 
-#-webkit-web-inspector .sidebar-pane > .body .info,
-#-webkit-web-inspector .sidebar-label,
-#-webkit-web-inspector .placard .title,
-#-webkit-web-inspector .placard .subtitle {
+#-blink-dev-tools .sidebar-pane > .body .info,
+#-blink-dev-tools .sidebar-label,
+#-blink-dev-tools .placard .title,
+#-blink-dev-tools .placard .subtitle {
 	color: #AAA !important;
 }
 
-#-webkit-web-inspector .navigator-tabbed-pane .tabbed-pane-header,
-#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header,
-#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab {
+#-blink-dev-tools .navigator-tabbed-pane .tabbed-pane-header,
+#-blink-dev-tools #scripts-editor-container-tabbed-pane .tabbed-pane-header,
+#-blink-dev-tools #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab {
 	background-image: none !important;
 	background-color: #222 !important;
 	color: #ccc !important;
 	border: 0 !important;
 }
 
-#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header {
+#-blink-dev-tools #scripts-editor-container-tabbed-pane .tabbed-pane-header {
 	border-bottom: 1px solid #333 !important;
 }
 
-#-webkit-web-inspector #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab.selected {
+#-blink-dev-tools #scripts-editor-container-tabbed-pane .tabbed-pane-header-tab.selected {
 	background-color: #333 !important;
 	border-color: #222 !important;
 }
 
 /* Code Mirror */
-#-webkit-web-inspector div.CodeMirror span.CodeMirror-matchingbracket {
+#-blink-dev-tools div.CodeMirror span.CodeMirror-matchingbracket {
 	color: #fff !important;
 	text-decoration: underline !important;
 }
 
-#-webkit-web-inspector .CodeMirror-scroll,
-#-webkit-web-inspector .tabbed-pane-content,
-#-webkit-web-inspector .resource-view .script-view {
+#-blink-dev-tools .CodeMirror-scroll,
+#-blink-dev-tools .tabbed-pane-content,
+#-blink-dev-tools .resource-view .script-view {
 	background: #222 !important;
 }
 
 /* Call Stack */
-#-webkit-web-inspector .placard.selected {
+#-blink-dev-tools .placard.selected {
 	background: #333 !important;
 	border-top: 0 !important;
 }
 
-#-webkit-web-inspector .placard:nth-of-type(2n) {
+#-blink-dev-tools .placard:nth-of-type(2n) {
 	background: #444 !important;
 	border-top: 0 !important;
 }
 
-#-webkit-web-inspector .sidebar-pane > .body .placard + .info {
+#-blink-dev-tools .sidebar-pane > .body .placard + .info {
 	background: #222 !important;
 	border-top: 0 !important;
 	color: #c41a16 !important;
@@ -858,82 +858,82 @@
 /* Messages
 /**********************************************/
 
-#-webkit-web-inspector #console-messages {
+#-blink-dev-tools #console-messages {
 	font-family: 'DroidSansMono', Menlo, monospace !important;
 	background: #242424;
 	color: #AAA !important;
 }
 
-#-webkit-web-inspector #console-messages a {
+#-blink-dev-tools #console-messages a {
 	color: #888 !important;
 }
 
-#-webkit-web-inspector #console-messages a:hover {
+#-blink-dev-tools #console-messages a:hover {
 	color: #999 !important;
 }
 
-#-webkit-web-inspector #console-messages .console-message {
+#-blink-dev-tools #console-messages .console-message {
 	color: #f1f1f1 !important;
 }
 
-#-webkit-web-inspector #console-messages .console-message, #-webkit-web-inspector .console-user-command {
+#-blink-dev-tools #console-messages .console-message, #-blink-dev-tools .console-user-command {
 	border-top: none !important;
 	border-bottom: 1px solid #444 !important;
 }
 
-#-webkit-web-inspector #console-messages .console-user-command > .console-message-text {
+#-blink-dev-tools #console-messages .console-user-command > .console-message-text {
 	color: #ffd2a7 !important;
 }
 
-#-webkit-web-inspector .console-formatted-number {
+#-blink-dev-tools .console-formatted-number {
 	color: #ff73fd !important;
 }
 
-#-webkit-web-inspector #console-messages .console-formatted-string {
+#-blink-dev-tools #console-messages .console-formatted-string {
 	color: #a8ff60 !important;
 }
 
-#-webkit-web-inspector #console-messages .console-formatted-object {
+#-blink-dev-tools #console-messages .console-formatted-object {
 	color: #7c7c7c !important;
 }
 
-#-webkit-web-inspector #console-messages .console-formatted-function {
+#-blink-dev-tools #console-messages .console-formatted-function {
 	color: #fff !important;
 }
 
-#-webkit-web-inspector #console-messages .console-formatted-regexp {
+#-blink-dev-tools #console-messages .console-formatted-regexp {
 	color: #e9c062 !important;
 }
 
-#-webkit-web-inspector #console-messages .console-group-messages .section .header .title {
+#-blink-dev-tools #console-messages .console-group-messages .section .header .title {
 	color: #f1f1f1 !important;
 }
 
-#-webkit-web-inspector #console-messages .section .properties .name, .event-properties .name {
+#-blink-dev-tools #console-messages .section .properties .name, .event-properties .name {
 	color: #96cbfe !important;
 }
 
-#-webkit-web-inspector .styles-section.matched-styles .properties li.parent .expand-element,
-#-webkit-web-inspector #console-messages .console-group-messages .section .header::before,
-#-webkit-web-inspector #console-messages .properties-tree li.parent::before,
-#-webkit-web-inspector .outline-disclosure li.parent::before {
+#-blink-dev-tools .styles-section.matched-styles .properties li.parent .expand-element,
+#-blink-dev-tools #console-messages .console-group-messages .section .header::before,
+#-blink-dev-tools #console-messages .properties-tree li.parent::before,
+#-blink-dev-tools .outline-disclosure li.parent::before {
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) #242424 !important;
 }
 
-#-webkit-web-inspector .properties-tree li,
-#-webkit-web-inspector .outline-disclosure li::before,
-#-webkit-web-inspector .properties-tree li.parent {
+#-blink-dev-tools .properties-tree li,
+#-blink-dev-tools .outline-disclosure li::before,
+#-blink-dev-tools .properties-tree li.parent {
 	background-color: inherit !important;
 }
 
-#-webkit-web-inspector #main ol {
+#-blink-dev-tools #main ol {
 	background-color: inherit !important;
 }
 
-#-webkit-web-inspector .styles-section.matched-styles .properties li.parent.expanded .expand-element,
-#-webkit-web-inspector #console-messages .console-group-messages .section.expanded .header::before,
-#-webkit-web-inspector #console-messages .properties-tree li.parent.expanded::before,
-#-webkit-web-inspector .outline-disclosure li.parent.expanded::before {
+#-blink-dev-tools .styles-section.matched-styles .properties li.parent.expanded .expand-element,
+#-blink-dev-tools #console-messages .console-group-messages .section.expanded .header::before,
+#-blink-dev-tools #console-messages .properties-tree li.parent.expanded::before,
+#-blink-dev-tools .outline-disclosure li.parent.expanded::before {
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==) #242424 !important;
 }
 
@@ -946,7 +946,7 @@
 	100% { color: #f22; !important }
 }
 
-#-webkit-web-inspector #console-messages .console-error-level .console-message-text {
+#-blink-dev-tools #console-messages .console-error-level .console-message-text {
 	color: #f66 !important;
 	-webkit-animation-name: webkit-error-level;
 	-webkit-animation-duration: 2s;
@@ -954,7 +954,7 @@
 	-webkit-timing-function: ease-in-out;
 }
 
-#-webkit-web-inspector #console-messages .console-user-command::before {
+#-blink-dev-tools #console-messages .console-user-command::before {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTMzNzdGNUZDMTA1MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTMzNzdGNjBDMTA1MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y1REMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y1RUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pia6udAAAAB5SURBVHjaYvz//z8DMYAFxli9ejWI6oByK5AVhYaGIhRCgQsQGwOxIFTxe5gEE5pCVyA+C8RpQLwbqgmrwvdQxauhis6AbMamEASUkEwCabyHTWE51BQlqBNMoDSKQhckX3dCFd3DCB4g2AP16VkoGwUwEhvgAAEGAAzQHBRSxqPRAAAAAElFTkSuQmCC) !important;
 }
 
@@ -962,13 +962,13 @@
 /* Prompt
 /**********************************************/
 
-#-webkit-web-inspector #console-prompt {
+#-blink-dev-tools #console-prompt {
 	color: #f1f1f1 !important;
 	border-top: none !important;
 	border-bottom: 1px solid #444 !important;
 }
 
-#-webkit-web-inspector #console-prompt::before {
+#-blink-dev-tools #console-prompt::before {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjRGNTc2MTZDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjRGNTc2MTdDMTA2MTFFMDgwRUZGQ0JCMjgzMzU0MTYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MzM3N0Y2MUMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MzM3N0Y2MkMxMDUxMUUwODBFRkZDQkIyODMzNTQxNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plf0eOsAAAB4SURBVHjaYvz//z8DMYAFxph+BqyhA8qtQFaUacKIUAgFLkBsDMSCUMXvYRJMaApdgfgsEKcB8W6oJqwK30MVr4YqOgPEodgUgoASkkkgjfewKSyHmqIEdYIJlEZR6ILk606oonsYwQMEe6A+PQtlowBGYgMcIMAAF2wcFPVNZx8AAAAASUVORK5CYII=) !important;
 	color: #fff !important;
 }
@@ -977,117 +977,117 @@
 /* Elements/Network
 /**********************************************/
 
-#-webkit-web-inspector .data-grid table {
+#-blink-dev-tools .data-grid table {
 	color: white !important;
 	background: #222 !important;
 }
 
-#-webkit-web-inspector .data-grid tr.selected,
-#-webkit-web-inspector .data-grid table.data tr.revealed.selected:nth-child(odd) {
+#-blink-dev-tools .data-grid tr.selected,
+#-blink-dev-tools .data-grid table.data tr.revealed.selected:nth-child(odd) {
 	color: white !important;
 	background: #000 !important;
 }
 
-#-webkit-web-inspector .data-grid table.data tr.revealed:nth-child(odd) {
+#-blink-dev-tools .data-grid table.data tr.revealed:nth-child(odd) {
 	background: #292929 !important; /* Zebra stripe Network > Cookies */
 }
 
-#-webkit-web-inspector .network-graph-bar,
-#-webkit-web-inspector .network-graph-label,
-#-webkit-web-inspector .network-graph-bar-area {
+#-blink-dev-tools .network-graph-bar,
+#-blink-dev-tools .network-graph-label,
+#-blink-dev-tools .network-graph-bar-area {
 	color: white !important;
 }
 
 /**********************************************/
 /* Layout
 /**********************************************/
-#-webkit-web-inspector #storage-views .script-view,
-#-webkit-web-inspector #network-views .script-view,
-#-webkit-web-inspector #script-resource-views .script-view {
+#-blink-dev-tools #storage-views .script-view,
+#-blink-dev-tools #network-views .script-view,
+#-blink-dev-tools #script-resource-views .script-view {
 	color: #ccc !important;
 }
 
-#-webkit-web-inspector #storage-views .script-view,
-#-webkit-web-inspector #elements-content,
-#-webkit-web-inspector #network-views .text-editor-contents,
-#-webkit-web-inspector #script-resource-views .script-view {
+#-blink-dev-tools #storage-views .script-view,
+#-blink-dev-tools #elements-content,
+#-blink-dev-tools #network-views .text-editor-contents,
+#-blink-dev-tools #script-resource-views .script-view {
 	background: #242424 !important;
 	font-size: 12px !important;
 }
 
-#-webkit-web-inspector #elements-content .highlight {
+#-blink-dev-tools #elements-content .highlight {
 	color: #f1f1f1;
 }
 
-#-webkit-web-inspector #elements-content li.hovered:not(.selected) .selection {
+#-blink-dev-tools #elements-content li.hovered:not(.selected) .selection {
 	background: rgba(255, 255, 255, .2) !important;
 }
 
-#-webkit-web-inspector #elements-content ol:focus li.selected .selection {
+#-blink-dev-tools #elements-content ol:focus li.selected .selection {
 	background: #444 !important;
 }
 
-#-webkit-web-inspector #elements-content .selected {
+#-blink-dev-tools #elements-content .selected {
 	background-color: #333 !important;
 	border-left: 3px solid #ccc !important;
 }
 
-#-webkit-web-inspector #elements-content .editing {
+#-blink-dev-tools #elements-content .editing {
 	background-color: #333 !important;
 	color: #CCC !important;
 }
 
-#-webkit-web-inspector #elements-content .parent::before {
+#-blink-dev-tools #elements-content .parent::before {
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAATklEQVQoz2NgIAf8//+fkViFrEC8HoitiFV8Boo7gViMWMUgfAiIY4CYmRjFMLwCiPWJVQzCp4DYmliT9YhxczQxbu4iJjQ2ALEl1WIQAFpqx0EumkjpAAAAAElFTkSuQmCC) !important;
 	position: relative;
 	z-index: 999;
 }
 
-#-webkit-web-inspector #elements-content .parent.expanded::before {
+#-blink-dev-tools #elements-content .parent.expanded::before {
 	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAAWElEQVQoz2NgoCn4//8/KyEMU8gExNuA+AwevArZZCcCio3QnTIJh8JGbO6WAeKjaAr3AbEQLo+moikOxhcqbEC8DqpwEcjzhILRHIhPAbE6seFuQ3HkAQARPsRMK4Rb1wAAAABJRU5ErkJggg==) !important;
 }
 
-#-webkit-web-inspector .styles-element-state-pane {
+#-blink-dev-tools .styles-element-state-pane {
 	background: #333 !important;
 	margin-top: -46px !important;
 	padding: 4px 0 !important;
 	border-bottom: 1px solid #666 !important;
 }
 
-#-webkit-web-inspector .styles-element-state-pane.expanded {
+#-blink-dev-tools .styles-element-state-pane.expanded {
 	margin-top: 0 !important;
 }
 
 /**********************************************/
 /* HTML
 /**********************************************/
-#-webkit-web-inspector .webkit-html-comment {
+#-blink-dev-tools .webkit-html-comment {
 	color: rgb(117, 113, 96) !important;
 }
 
-#-webkit-web-inspector .webkit-html-tag {
+#-blink-dev-tools .webkit-html-tag {
 	color: #e31473 !important;
 }
 
-#-webkit-web-inspector .webkit-html-attribute-name {
+#-blink-dev-tools .webkit-html-attribute-name {
 	color: rgb(153, 226, 85) !important;
 }
 
-#-webkit-web-inspector .webkit-html-attribute-value {
+#-blink-dev-tools .webkit-html-attribute-value {
 	color: rgb(230, 218, 131) !important;
 }
 
-#-webkit-web-inspector .webkit-html-text-node,
-#-webkit-web-inspector .webkit-html-css-node {
+#-blink-dev-tools .webkit-html-text-node,
+#-blink-dev-tools .webkit-html-css-node {
 	color: white !important;
 }
 
-#-webkit-web-inspector .webkit-html-js-node {
+#-blink-dev-tools .webkit-html-js-node {
 	color: white !important;
 }
 
-#-webkit-web-inspector .webkit-html-resource-link,
-#-webkit-web-inspector .webkit-html-external-link {
+#-blink-dev-tools .webkit-html-resource-link,
+#-blink-dev-tools .webkit-html-external-link {
 	color: rgb(230, 218, 131) !important;
 }
 
@@ -1095,40 +1095,40 @@
 /* CSS
 /**********************************************/
 
-#-webkit-web-inspector .webkit-css-comment {
+#-blink-dev-tools .webkit-css-comment {
 	color: rgb(117, 113, 92) !important;
 }
 
-#-webkit-web-inspector .webkit-css-selector {
+#-blink-dev-tools .webkit-css-selector {
 	color: rgb(165, 226, 85) !important;
 }
 
-#-webkit-web-inspector .webkit-css-property {
+#-blink-dev-tools .webkit-css-property {
 	color: #72d9e7 !important;
 }
 
-#-webkit-web-inspector .webkit-css-keyword {
+#-blink-dev-tools .webkit-css-keyword {
 	color: rgb(182, 228, 246) !important;
 }
 
-#-webkit-web-inspector .webkit-css-number {
+#-blink-dev-tools .webkit-css-number {
 	color: rgb(175, 130, 243) !important;
 }
 
-#-webkit-web-inspector .webkit-css-important,
-#-webkit-web-inspector .webkit-css-at-rule {
+#-blink-dev-tools .webkit-css-important,
+#-blink-dev-tools .webkit-css-at-rule {
 	color: #e31473 !important;
 }
 
-#-webkit-web-inspector .webkit-css-string {
+#-blink-dev-tools .webkit-css-string {
 	color: rgb(253, 150, 63) !important;
 }
 
-#-webkit-web-inspector .webkit-css-url {
+#-blink-dev-tools .webkit-css-url {
 	color: rgb(253, 150, 63) !important;
 }
 
-#-webkit-web-inspector .event-bars .event-bar .header .title {
+#-blink-dev-tools .event-bars .event-bar .header .title {
 	text-shadow: none !important;
 	color: #ccc !important;
 }
@@ -1137,57 +1137,62 @@
 /* JavaScript
 /**********************************************/
 
-#-webkit-web-inspector .webkit-line-content,
-#-webkit-web-inspector .webkit-javascript-ident {
+#-blink-dev-tools .webkit-line-content,
+#-blink-dev-tools .webkit-javascript-ident {
 	color: #fff !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-keyword {
+#-blink-dev-tools .webkit-javascript-keyword {
 	color: rgb(98, 218, 236) !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-comment {
+#-blink-dev-tools .webkit-javascript-comment {
 	color: rgb(117, 113, 96) !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-string {
+#-blink-dev-tools .webkit-javascript-string {
 	color: rgb(230, 218, 131) !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-number {
+#-blink-dev-tools .webkit-javascript-number {
 	color: rgb(169, 130, 247) !important;
 }
 
-#-webkit-web-inspector .webkit-javascript-regexp {
+#-blink-dev-tools .webkit-javascript-regexp {
 	color: rgb(230, 218, 131) !important;
 }
 
 /* Set the console tab as the first item */
-#-webkit-web-inspector #toolbar .toolbar-item.console {
+#-blink-dev-tools #toolbar .toolbar-item.console {
 	position: absolute !important;
 	left: 0 !important;
 	top: 0 !important;
 }
 
-#-webkit-web-inspector #toolbar {
+#-blink-dev-tools #toolbar {
 	padding-left: 72px !important;
+}
+
+/* Hide the close button */
+#-blink-dev-tools #toolbar .close-button {
+	display: none !important;
 }
 
 /**********************************************/
 /* Popup (popover)
 /**********************************************/
-#-webkit-web-inspector .popover {
+#-blink-dev-tools .popover {
 	-webkit-border-image: none !important;
 	background: #333 !important;
 	box-shadow: 0 0 10px 0 #333 !important;
 }
 
-#-webkit-web-inspector .popover .content span {
+#-blink-dev-tools .popover .content span {
 	color: #fff !important;
 	padding-top: 10px;
 }
 
-#-webkit-web-inspector .popover .arrow {
+#-blink-dev-tools .popover .arrow {
 	margin-left: 10px !important;
 	margin-top: -15px !important;
 }
@@ -1195,6 +1200,6 @@
 /**********************************************/
 /* Settings
 /**********************************************/
-#-webkit-web-inspector #settings-screen .tabbed-pane-header-tab.selected {
+#-blink-dev-tools #settings-screen .tabbed-pane-header-tab.selected {
 	background: #fff !important;
 }
