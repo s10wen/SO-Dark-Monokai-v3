@@ -1,6 +1,15 @@
 ### HEAD
 
 
+### 3.0.6 (October 21st, 2013)
+
+* Version 32.0.1677.0 canary
+* Update #-webkit-web-inspector to #-blink-dev-tools
+* Hide search button
+* Hide close button
+* Remove the undock icon from bottom right corner
+
+
 ### 3.0.5 (October 3rd, 2013)
 
 * Version 30.0.1599.66 stable
