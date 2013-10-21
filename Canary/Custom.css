@@ -1173,8 +1173,8 @@
 	padding-left: 72px !important;
 }
 
-/* Hide the close button */
-#-blink-dev-tools #toolbar .close-button {
+/* Hide the search button */
+#-blink-dev-tools .toolbar-controls-left {
 	display: none !important;
 }
 
