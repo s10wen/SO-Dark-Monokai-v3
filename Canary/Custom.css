@@ -1174,7 +1174,8 @@
 }
 
 /* Hide the search button */
-#-blink-dev-tools .toolbar-controls-left {
+#-blink-dev-tools .toolbar-controls-left,
+#-blink-dev-tools #toolbar .close-button {
 	display: none !important;
 }
 
