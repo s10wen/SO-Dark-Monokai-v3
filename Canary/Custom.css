@@ -620,6 +620,40 @@
 	padding: 0 2px 2px !important;
 }
 
+/* Style element icons */
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > select,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > button {
+	margin-top: 3px !important;
+}
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > select.select-settings,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > select.select-settings:hover {
+	-webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneSettingsButtons.png) !important;
+}
+
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state:hover {
+	-webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneElementStateButtons.png) !important;
+}
+
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.add,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.add:hover {
+	-webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneAddButtons.png) !important;
+}
+
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > select.select-settings,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.add {
+	background-image: linear-gradient(#eee,#777) !important;
+}
+
+#-blink-dev-tools .sidebar-pane-toolbar > .pane-title-button:active, .sidebar-pane-toolbar > .pane-title-button.toggled,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > select.select-settings:hover,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state:hover,
+#-blink-dev-tools .panel.elements .sidebar-pane-toolbar > .pane-title-button.add:hover {
+	background-position: 0 0 !important;
+	background-image: linear-gradient(#777,#eee) !important;
+}
+
 /* Resources info */
 #-blink-dev-tools .resource-view.image .title {
 	color: #ccc !important;

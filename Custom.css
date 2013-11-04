@@ -620,6 +620,40 @@
 	padding: 0 2px 2px !important;
 }
 
+/* Style element icons */
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > select,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > button {
+	margin-top: 3px !important;
+}
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > select.select-settings,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > select.select-settings:hover {
+    -webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneSettingsButtons.png) !important;
+}
+
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state:hover {
+	-webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneElementStateButtons.png) !important;
+}
+
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.add,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.add:hover {
+	-webkit-mask-image: url(chrome-devtools://devtools/bundled/Images/paneAddButtons.png) !important;
+}
+
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > select.select-settings,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.add {
+	background-image: linear-gradient(#eee,#777) !important;
+}
+
+#-webkit-web-inspector .sidebar-pane-toolbar > .pane-title-button:active, .sidebar-pane-toolbar > .pane-title-button.toggled,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > select.select-settings:hover,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.element-state:hover,
+#-webkit-web-inspector .panel.elements .sidebar-pane-toolbar > .pane-title-button.add:hover {
+	background-position: 0 0 !important;
+	background-image: linear-gradient(#777,#eee) !important;
+}
+
 /* Resources info */
 #-webkit-web-inspector .resource-view.image .title {
 	color: #ccc !important;
