@@ -608,12 +608,12 @@
 #-blink-dev-tools .toolbar-background {
 	background-color: #333 !important;
 	border-color: #222 !important;
-	color:#fff !important;
+	color: #fff !important;
 }
 
-#-blink-dev-tools .tabbed-pane.vbox.help-window-main.visible{
+#-blink-dev-tools .tabbed-pane.vbox.help-window-main.visible {
 	background-color: rgb(36,36,36) !important;
-	color:rgb(150,150,150) !important;
+	color: rgb(150,150,150) !important;
 }
 
 #-blink-dev-tools .data-grid th.sortable > div {
@@ -624,7 +624,6 @@
 	background-color: rgb(60,60,60) !important;
 }
 
-
 #-blink-dev-tools .tabbed-pane-header-tab {
 	padding: 4px !important;
 	margin: 0 !important;
@@ -634,10 +633,12 @@
 	color:rgb(150,150,150) !important;
 }
 
-#-blink-dev-tools .tabbed-pane-header-tab.selected, #-blink-dev-tools #settings-screen .tabbed-pane-header-tab.selected, #settings-screen .tabbed-pane-header-tab {
+#-blink-dev-tools .tabbed-pane-header-tab.selected,
+#-blink-dev-tools #settings-screen .tabbed-pane-header-tab.selected,
+#-blink-dev-tools #settings-screen .tabbed-pane-header-tab {
 	background-color: rgb(36,36,36) !important;
 	border-color: #222 !important;
-	color:#fff !important;
+	color: #fff !important;
 }
 
 #-blink-dev-tools .tabbed-pane-header-tabs-drop-down-container {
