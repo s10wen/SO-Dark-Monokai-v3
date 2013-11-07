@@ -605,14 +605,39 @@
 	height: auto !important;
 }
 
+#-blink-dev-tools .toolbar-background {
+	background-color: #333 !important;
+	border-color: #222 !important;
+	color:#fff !important;
+}
+
+#-blink-dev-tools .tabbed-pane.vbox.help-window-main.visible{
+	background-color: rgb(36,36,36) !important;
+	color:rgb(150,150,150) !important;
+}
+
+#-blink-dev-tools .data-grid th.sortable > div {
+	color: rgb(100,100,100) !important;
+}
+
+#-blink-dev-tools .panel-status-bar {
+	background-color: rgb(60,60,60) !important;
+}
+
+
 #-blink-dev-tools .tabbed-pane-header-tab {
 	padding: 4px !important;
 	margin: 0 !important;
+	text-overflow: clip !important;
+	background-color: #333 !important;
+	height: 23px !important;
+	color:rgb(150,150,150) !important;
 }
 
-#-blink-dev-tools .tabbed-pane-header-tab.selected {
-	background-color: #333 !important;
+#-blink-dev-tools .tabbed-pane-header-tab.selected, #-blink-dev-tools #settings-screen .tabbed-pane-header-tab.selected, #settings-screen .tabbed-pane-header-tab {
+	background-color: rgb(36,36,36) !important;
 	border-color: #222 !important;
+	color:#fff !important;
 }
 
 #-blink-dev-tools .tabbed-pane-header-tabs-drop-down-container {
