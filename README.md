@@ -1,3 +1,16 @@
+***
+
+# PLEASE NOTE
+
+As of v.**33.0.1706.0**, Chrome Canary no longer supports custom stylesheets in the User Stylesheets directory.
+
+@darcyclarke [filed an issue to restore this functionality](https://code.google.com/p/chromium/issues/detail?can=4&start=0&num=100&q=&colspec=ID%20Pri%20M%20Iteration%20ReleaseBlock%20Cr%20Status%20Owner%20Summary%20OS%20Modified&groupby=&sort=&id=318566).  Feel free to voice your opinions there.
+
+In the interim, @mauricecruz has a solution [injecting styles through the inspector's inspector](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme/blob/master/getDevTheme.js).
+
+***
+
+
 # SO-Dark-Monokai-v3
 
 A third version of the theme I tweaked, changing the toolbar icons to text and fixing an issue with the latest release of Chrome Canary.
