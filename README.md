@@ -8,15 +8,21 @@ As of v.**33.0.1706.0**, Chrome Canary no longer supports custom stylesheets in 
 
 In the interim, @mauricecruz has a solution [injecting styles through the inspector's inspector](https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme/blob/master/getDevTheme.js).
 
+
 ***
+
 
 # Zero Base Themes
 
 I've started moving this theme across to:
+
 https://github.com/mauricecruz/zero-base-themes
+
 https://github.com/mauricecruz/zero-base-themes/blob/master/themes/s10wen-monokai.less
 
+
 ***
+
 
 # SO-Dark-Monokai-v3
 
